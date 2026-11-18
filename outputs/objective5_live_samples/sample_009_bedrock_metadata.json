@@ -1,0 +1,60 @@
+{
+  "sample_index": 9,
+  "sample_id": "g_2453/g_2453_patch_0_xc_158_yc_149.nc",
+  "glacier_id": "g_2453",
+  "source_netcdf_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\datasets\\dl4gam\\extracted\\g_2453\\g_2453_patch_0_xc_158_yc_149.nc",
+  "source_netcdf_file_size_bytes": 4840014,
+  "ground_truth_class": "Mountain Bedrock",
+  "ground_truth_label": 0,
+  "ice_ratio": 0.02,
+  "spectral_bands": {
+    "red_channel": "Sentinel-2 MSI Band B04 (665 nm, index 3)",
+    "green_channel": "Sentinel-2 MSI Band B03 (560 nm, index 2)",
+    "blue_channel": "Sentinel-2 MSI Band B02 (490 nm, index 1)",
+    "scale_factor_to_reflectance": 0.0001
+  },
+  "preprocessing": {
+    "channel_order": "RGB (B04, B03, B02)",
+    "percentile_stretch": {
+      "lower_percentile_p2": 0.0494,
+      "upper_percentile_p98": 0.3725,
+      "formula": "clip((rgb - p2) / (p98 - p2), 0.0, 1.0)"
+    },
+    "pixel_quantization": "uint8 in range [0, 255]",
+    "image_dimensions": [
+      256,
+      256
+    ],
+    "channels": 3,
+    "mode": "RGB",
+    "format": "PNG (lossless)"
+  },
+  "output_png_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\objective5_live_samples\\sample_009_bedrock.png",
+  "output_png_size_bytes": 145518,
+  "benchmark_vs_live_upload_compatibility": {
+    "is_preprocessing_equivalent": true,
+    "explanation": "In both the held-out benchmark and the live upload interface, the 8-bit RGB image is ingested into PIL, passed through clip_preprocess (Resize(224), CenterCrop(224), ToTensor(), Normalize(OpenAI stats)), and fed to the frozen vision backbone. Because PNG encoding is lossless for uint8 RGB arrays, the live inference pipeline reproduces the exact benchmark tensor.",
+    "stored_benchmark_predictions": {
+      "clip_prediction": "Mountain Bedrock",
+      "clip_prob_bedrock": 0.6634,
+      "clip_prob_glacier": 0.3366,
+      "coop_prediction": "Mountain Bedrock",
+      "coop_prob_bedrock": 0.7027,
+      "coop_prob_glacier": 0.2973
+    },
+    "live_inference_predictions": {
+      "clip_prediction": "Mountain Bedrock",
+      "clip_prob_bedrock": 0.6634,
+      "clip_prob_glacier": 0.3366,
+      "coop_prediction": "Mountain Bedrock",
+      "coop_prob_bedrock": 0.7027,
+      "coop_prob_glacier": 0.2973,
+      "latency_ms": 55.88
+    },
+    "discrepancy": {
+      "clip_prob_difference": 2.38e-06,
+      "coop_prob_difference": 3.74e-06,
+      "verdict": "Mathematically equivalent (difference < 1e-5 due to floating-point rounding)"
+    }
+  }
+}

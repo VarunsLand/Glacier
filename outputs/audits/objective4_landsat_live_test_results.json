@@ -1,0 +1,27 @@
+{
+  "Test_A_Baseline_1_10_1": {
+    "sample_1_10_1_present": true,
+    "valid_pixels_65536": true,
+    "changed_pixels_54789": true,
+    "change_ratio_83_60": true,
+    "footprint_49_310": true,
+    "tp_2649": true,
+    "fp_52140": true,
+    "fn_4145": true,
+    "tn_6602": true,
+    "precision_0_0483": true,
+    "recall_0_3899": true,
+    "iou_0_0449": true,
+    "dice_0_0860": true,
+    "panels_6_suite": true,
+    "legend_present": true
+  },
+  "Test_D_Threshold_Interactive": true,
+  "Test_E_Method_Selector": true,
+  "Test_F_Exports": {
+    "download_mask_png": true,
+    "download_overlay_png": true,
+    "download_sample_metrics_csv": true,
+    "download_comparison_csv": true
+  }
+}

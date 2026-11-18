@@ -1,0 +1,6 @@
+group_key,interval_label,glacier_pairs,pct_of_inventory,earlier_area_km2,later_area_km2,net_loss_km2,net_reduction_pct,retreating_pairs_count,retreating_pct,mean_interval_years,mean_loss_per_pair_km2,sum_pairwise_annual_loss_km2_yr,mean_pairwise_annual_loss_km2_yr
+3_to_5_years,3.0 <= Delta t <= 5.0 yrs,12972,15.9,22979.69,22536.99,442.69,1.93,6315,48.68,3.96,0.0341,77.88,0.006
+5_to_10_years,5.0 < Delta t <= 10.0 yrs,32632,39.99,51300.18,46587.56,4712.62,9.19,20470,62.73,6.97,0.1444,667.36,0.02045
+10_to_15_years,10.0 < Delta t <= 15.0 yrs,18201,22.31,54038.61,49041.01,4997.6,9.25,13136,72.17,12.44,0.2746,436.23,0.02397
+15_to_20_years,15.0 < Delta t <= 20.0 yrs,8727,10.7,54483.6,52755.82,1727.78,3.17,6143,70.39,16.64,0.198,107.51,0.01232
+greater_than_20_years,Delta t > 20.0 yrs,9066,11.11,37834.14,33393.07,4441.08,11.74,8654,95.46,33.14,0.4899,127.55,0.01407

@@ -1,0 +1,710 @@
+{
+  "timestamp": "2026-11-16 07:52:51",
+  "methods": {
+    "Method A": {
+      "prefix": "Method A: Baseline Mean RGB",
+      "screenshot": "landsat_live_method_a.png",
+      "screenshot_bytes": 1152213,
+      "state": {
+        "total_valid_pixels": null,
+        "detected_changed_pixels": null,
+        "surface_change_ratio": null,
+        "footprint": null,
+        "precision": null,
+        "recall": null,
+        "specificity": null,
+        "iou": null,
+        "dice": null,
+        "slider_label": "Deterministic Threshold (Method A):",
+        "slider_val": "35.00",
+        "panels": [
+          {
+            "index": 0,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/c1e056343573",
+            "caption": "True-Color RGB Composite (B4-B3-B2) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 1,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/d5f7ba79f059",
+            "caption": "False-Color SWIR Composite (R: B11 / G: B8 / B: B4) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 2,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/06b143970684",
+            "caption": "B2 (Blue) Grayscale \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 3,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6459e4007d7a",
+            "caption": "Continuous NDSI Field (Range: -1.0 to +1.0) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 4,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/2eb2027fc138",
+            "caption": "Binary Cryogenic Mask (NDSI \u2265 0.40) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 5,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/68dfd6552b46",
+            "caption": "Topographic Elevation Heatmap (2204m to 3278m a.s.l.)"
+          },
+          {
+            "index": 6,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/5a2bebfa8568",
+            "caption": "Analytical Hillshade (Azimuth: 315\u00b0, Altitude: 45\u00b0)"
+          },
+          {
+            "index": 7,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/542a545c1585",
+            "caption": "Earlier observation (Epoch A)"
+          },
+          {
+            "index": 8,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/89f63801392c",
+            "caption": "Later observation (Epoch B)"
+          },
+          {
+            "index": 9,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/43ba08f5f45c",
+            "caption": "Mean absolute RGB difference |mean(|B \u2212 A|)|"
+          },
+          {
+            "index": 10,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/e2551681263e",
+            "caption": "Method A \u2014 Baseline Mean RGB Change Mask (T \u2265 35)"
+          },
+          {
+            "index": 11,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 12,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1154fd4c1a6a",
+            "caption": "Combined prediction overlay"
+          },
+          {
+            "index": 13,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/e2551681263e",
+            "caption": "Method A \u2014 Baseline Mean RGB Change Mask (T \u2265 35)"
+          },
+          {
+            "index": 14,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 15,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/b63d70251c1a",
+            "caption": "Dynamic Vector Boundary Overlay on Sentinel-2 RGB \u2014 G008379E46648N Basin Footprint"
+          },
+          {
+            "index": 16,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6497d2e051cb",
+            "caption": "1. GLIMS Multi-Temporal Polygon Boundaries (Rhone, Great Aletsch, and Unteraar Reference Basins)"
+          },
+          {
+            "index": 17,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/19248e68b49c",
+            "caption": "2. Sentinel-2 Multispectral Visual Suite (True-Color RGB, False-Color SWIR, and Topographic DEM Elevation)"
+          },
+          {
+            "index": 18,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/3b815791a6eb",
+            "caption": "3. Landsat-8 Polar Bi-temporal Surface Change Monitoring Suite"
+          }
+        ],
+        "analysis_snippet": "Select between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellit",
+        "raw_text_has_tp_2649": true,
+        "raw_text_has_tp_2403": false,
+        "raw_text_has_tp_775": false,
+        "raw_text_has_tp_1149": false
+      }
+    },
+    "Method B": {
+      "prefix": "Method B: Grayscale Difference",
+      "screenshot": "landsat_live_method_b.png",
+      "screenshot_bytes": 1143615,
+      "state": {
+        "total_valid_pixels": null,
+        "detected_changed_pixels": null,
+        "surface_change_ratio": null,
+        "footprint": null,
+        "precision": null,
+        "recall": null,
+        "specificity": null,
+        "iou": null,
+        "dice": null,
+        "slider_label": "Deterministic Threshold (Method B):",
+        "slider_val": "35.00",
+        "panels": [
+          {
+            "index": 0,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/c1e056343573",
+            "caption": "True-Color RGB Composite (B4-B3-B2) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 1,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/d5f7ba79f059",
+            "caption": "False-Color SWIR Composite (R: B11 / G: B8 / B: B4) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 2,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/06b143970684",
+            "caption": "B2 (Blue) Grayscale \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 3,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6459e4007d7a",
+            "caption": "Continuous NDSI Field (Range: -1.0 to +1.0) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 4,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/2eb2027fc138",
+            "caption": "Binary Cryogenic Mask (NDSI \u2265 0.40) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 5,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/68dfd6552b46",
+            "caption": "Topographic Elevation Heatmap (2204m to 3278m a.s.l.)"
+          },
+          {
+            "index": 6,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/5a2bebfa8568",
+            "caption": "Analytical Hillshade (Azimuth: 315\u00b0, Altitude: 45\u00b0)"
+          },
+          {
+            "index": 7,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/542a545c1585",
+            "caption": "Earlier observation (Epoch A)"
+          },
+          {
+            "index": 8,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/89f63801392c",
+            "caption": "Later observation (Epoch B)"
+          },
+          {
+            "index": 9,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/01f8a9116449",
+            "caption": "Grayscale luminance difference |Gray(B) \u2212 Gray(A)|"
+          },
+          {
+            "index": 10,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/383052325f39",
+            "caption": "Method B \u2014 Grayscale Luminance Change Mask (T \u2265 35)"
+          },
+          {
+            "index": 11,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 12,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/ff96fcab2ea0",
+            "caption": "Combined prediction overlay"
+          },
+          {
+            "index": 13,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/383052325f39",
+            "caption": "Method B \u2014 Grayscale Luminance Change Mask (T \u2265 35)"
+          },
+          {
+            "index": 14,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 15,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/b63d70251c1a",
+            "caption": "Dynamic Vector Boundary Overlay on Sentinel-2 RGB \u2014 G008379E46648N Basin Footprint"
+          },
+          {
+            "index": 16,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6497d2e051cb",
+            "caption": "1. GLIMS Multi-Temporal Polygon Boundaries (Rhone, Great Aletsch, and Unteraar Reference Basins)"
+          },
+          {
+            "index": 17,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/19248e68b49c",
+            "caption": "2. Sentinel-2 Multispectral Visual Suite (True-Color RGB, False-Color SWIR, and Topographic DEM Elevation)"
+          },
+          {
+            "index": 18,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/3b815791a6eb",
+            "caption": "3. Landsat-8 Polar Bi-temporal Surface Change Monitoring Suite"
+          }
+        ],
+        "analysis_snippet": "Select between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellit",
+        "raw_text_has_tp_2649": false,
+        "raw_text_has_tp_2403": false,
+        "raw_text_has_tp_775": false,
+        "raw_text_has_tp_1149": false
+      }
+    },
+    "Method C": {
+      "prefix": "Method C: Calibrated Mean RGB",
+      "screenshot": "landsat_live_method_c.png",
+      "screenshot_bytes": 1068208,
+      "state": {
+        "total_valid_pixels": null,
+        "detected_changed_pixels": null,
+        "surface_change_ratio": null,
+        "footprint": null,
+        "precision": null,
+        "recall": null,
+        "specificity": null,
+        "iou": null,
+        "dice": null,
+        "slider_label": "Deterministic Threshold (Method C):",
+        "slider_val": "60.00",
+        "panels": [
+          {
+            "index": 0,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/c1e056343573",
+            "caption": "True-Color RGB Composite (B4-B3-B2) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 1,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/d5f7ba79f059",
+            "caption": "False-Color SWIR Composite (R: B11 / G: B8 / B: B4) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 2,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/06b143970684",
+            "caption": "B2 (Blue) Grayscale \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 3,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6459e4007d7a",
+            "caption": "Continuous NDSI Field (Range: -1.0 to +1.0) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 4,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/2eb2027fc138",
+            "caption": "Binary Cryogenic Mask (NDSI \u2265 0.40) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 5,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/68dfd6552b46",
+            "caption": "Topographic Elevation Heatmap (2204m to 3278m a.s.l.)"
+          },
+          {
+            "index": 6,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/5a2bebfa8568",
+            "caption": "Analytical Hillshade (Azimuth: 315\u00b0, Altitude: 45\u00b0)"
+          },
+          {
+            "index": 7,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/542a545c1585",
+            "caption": "Earlier observation (Epoch A)"
+          },
+          {
+            "index": 8,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/89f63801392c",
+            "caption": "Later observation (Epoch B)"
+          },
+          {
+            "index": 9,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/43ba08f5f45c",
+            "caption": "Mean absolute RGB difference |mean(|B \u2212 A|)| (High-Threshold Calibration)"
+          },
+          {
+            "index": 10,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/9cbb5d5d9524",
+            "caption": "Method C \u2014 Calibrated Mean RGB Change Mask (T \u2265 60)"
+          },
+          {
+            "index": 11,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 12,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/78fc511cc14b",
+            "caption": "Combined prediction overlay"
+          },
+          {
+            "index": 13,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/9cbb5d5d9524",
+            "caption": "Method C \u2014 Calibrated Mean RGB Change Mask (T \u2265 60)"
+          },
+          {
+            "index": 14,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 15,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/b63d70251c1a",
+            "caption": "Dynamic Vector Boundary Overlay on Sentinel-2 RGB \u2014 G008379E46648N Basin Footprint"
+          },
+          {
+            "index": 16,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6497d2e051cb",
+            "caption": "1. GLIMS Multi-Temporal Polygon Boundaries (Rhone, Great Aletsch, and Unteraar Reference Basins)"
+          },
+          {
+            "index": 17,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/19248e68b49c",
+            "caption": "2. Sentinel-2 Multispectral Visual Suite (True-Color RGB, False-Color SWIR, and Topographic DEM Elevation)"
+          },
+          {
+            "index": 18,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/3b815791a6eb",
+            "caption": "3. Landsat-8 Polar Bi-temporal Surface Change Monitoring Suite"
+          }
+        ],
+        "analysis_snippet": "Select between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellit",
+        "raw_text_has_tp_2649": false,
+        "raw_text_has_tp_2403": false,
+        "raw_text_has_tp_775": true,
+        "raw_text_has_tp_1149": false
+      }
+    },
+    "Method D": {
+      "prefix": "Method D: Euclidean RGB",
+      "screenshot": "landsat_live_method_d.png",
+      "screenshot_bytes": 1080791,
+      "state": {
+        "total_valid_pixels": null,
+        "detected_changed_pixels": null,
+        "surface_change_ratio": null,
+        "footprint": null,
+        "precision": null,
+        "recall": null,
+        "specificity": null,
+        "iou": null,
+        "dice": null,
+        "slider_label": "Deterministic Threshold (Method D):",
+        "slider_val": "90.00",
+        "panels": [
+          {
+            "index": 0,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/c1e056343573",
+            "caption": "True-Color RGB Composite (B4-B3-B2) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 1,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/d5f7ba79f059",
+            "caption": "False-Color SWIR Composite (R: B11 / G: B8 / B: B4) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 2,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/06b143970684",
+            "caption": "B2 (Blue) Grayscale \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 3,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6459e4007d7a",
+            "caption": "Continuous NDSI Field (Range: -1.0 to +1.0) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 4,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/2eb2027fc138",
+            "caption": "Binary Cryogenic Mask (NDSI \u2265 0.40) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 5,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/68dfd6552b46",
+            "caption": "Topographic Elevation Heatmap (2204m to 3278m a.s.l.)"
+          },
+          {
+            "index": 6,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/5a2bebfa8568",
+            "caption": "Analytical Hillshade (Azimuth: 315\u00b0, Altitude: 45\u00b0)"
+          },
+          {
+            "index": 7,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/542a545c1585",
+            "caption": "Earlier observation (Epoch A)"
+          },
+          {
+            "index": 8,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/89f63801392c",
+            "caption": "Later observation (Epoch B)"
+          },
+          {
+            "index": 9,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/75c24459d0c7",
+            "caption": "Euclidean RGB distance \u221a(\u0394R\u00b2 + \u0394G\u00b2 + \u0394B\u00b2)"
+          },
+          {
+            "index": 10,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/7f04b4f5cc08",
+            "caption": "Method D \u2014 Euclidean RGB Distance Change Mask (T \u2265 90)"
+          },
+          {
+            "index": 11,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 12,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/299359f49928",
+            "caption": "Combined prediction overlay"
+          },
+          {
+            "index": 13,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/7f04b4f5cc08",
+            "caption": "Method D \u2014 Euclidean RGB Distance Change Mask (T \u2265 90)"
+          },
+          {
+            "index": 14,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 15,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/b63d70251c1a",
+            "caption": "Dynamic Vector Boundary Overlay on Sentinel-2 RGB \u2014 G008379E46648N Basin Footprint"
+          },
+          {
+            "index": 16,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6497d2e051cb",
+            "caption": "1. GLIMS Multi-Temporal Polygon Boundaries (Rhone, Great Aletsch, and Unteraar Reference Basins)"
+          },
+          {
+            "index": 17,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/19248e68b49c",
+            "caption": "2. Sentinel-2 Multispectral Visual Suite (True-Color RGB, False-Color SWIR, and Topographic DEM Elevation)"
+          },
+          {
+            "index": 18,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/3b815791a6eb",
+            "caption": "3. Landsat-8 Polar Bi-temporal Surface Change Monitoring Suite"
+          }
+        ],
+        "analysis_snippet": "Select between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellit",
+        "raw_text_has_tp_2649": false,
+        "raw_text_has_tp_2403": false,
+        "raw_text_has_tp_775": false,
+        "raw_text_has_tp_1149": true
+      }
+    },
+    "Method E": {
+      "prefix": "Method E: Illumination Offset-Normalized",
+      "screenshot": "landsat_live_method_e.png",
+      "screenshot_bytes": 1064338,
+      "state": {
+        "total_valid_pixels": null,
+        "detected_changed_pixels": null,
+        "surface_change_ratio": null,
+        "footprint": null,
+        "precision": null,
+        "recall": null,
+        "specificity": null,
+        "iou": null,
+        "dice": null,
+        "slider_label": "Deterministic Threshold (Method E):",
+        "slider_val": "40.00",
+        "panels": [
+          {
+            "index": 0,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/c1e056343573",
+            "caption": "True-Color RGB Composite (B4-B3-B2) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 1,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/d5f7ba79f059",
+            "caption": "False-Color SWIR Composite (R: B11 / G: B8 / B: B4) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 2,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/06b143970684",
+            "caption": "B2 (Blue) Grayscale \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 3,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6459e4007d7a",
+            "caption": "Continuous NDSI Field (Range: -1.0 to +1.0) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 4,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/2eb2027fc138",
+            "caption": "Binary Cryogenic Mask (NDSI \u2265 0.40) \u2014 g_4367_patch_0_xc_256_yc_256.nc"
+          },
+          {
+            "index": 5,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/68dfd6552b46",
+            "caption": "Topographic Elevation Heatmap (2204m to 3278m a.s.l.)"
+          },
+          {
+            "index": 6,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/5a2bebfa8568",
+            "caption": "Analytical Hillshade (Azimuth: 315\u00b0, Altitude: 45\u00b0)"
+          },
+          {
+            "index": 7,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/542a545c1585",
+            "caption": "Earlier observation (Epoch A)"
+          },
+          {
+            "index": 8,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/89f63801392c",
+            "caption": "Later observation (Epoch B)"
+          },
+          {
+            "index": 9,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/c2c8bbf2a8de",
+            "caption": "Illumination-corrected difference |(B \u2212 \u03bc_B) \u2212 (A \u2212 \u03bc_A)|"
+          },
+          {
+            "index": 10,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/581c7d813667",
+            "caption": "Method E \u2014 Illumination Offset-Normalized Change Mask (T \u2265 40)"
+          },
+          {
+            "index": 11,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 12,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/44d12710b7ae",
+            "caption": "Combined prediction overlay"
+          },
+          {
+            "index": 13,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/581c7d813667",
+            "caption": "Method E \u2014 Illumination Offset-Normalized Change Mask (T \u2265 40)"
+          },
+          {
+            "index": 14,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/1d3254af13cb",
+            "caption": "Ground-truth reference mask"
+          },
+          {
+            "index": 15,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/b63d70251c1a",
+            "caption": "Dynamic Vector Boundary Overlay on Sentinel-2 RGB \u2014 G008379E46648N Basin Footprint"
+          },
+          {
+            "index": 16,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/6497d2e051cb",
+            "caption": "1. GLIMS Multi-Temporal Polygon Boundaries (Rhone, Great Aletsch, and Unteraar Reference Basins)"
+          },
+          {
+            "index": 17,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/19248e68b49c",
+            "caption": "2. Sentinel-2 Multispectral Visual Suite (True-Color RGB, False-Color SWIR, and Topographic DEM Elevation)"
+          },
+          {
+            "index": 18,
+            "src_len": 64,
+            "src_prefix": "http://localhost:8501/media/3b815791a6eb",
+            "caption": "3. Landsat-8 Polar Bi-temporal Surface Change Monitoring Suite"
+          }
+        ],
+        "analysis_snippet": "Select between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellit",
+        "raw_text_has_tp_2649": false,
+        "raw_text_has_tp_2403": true,
+        "raw_text_has_tp_775": false,
+        "raw_text_has_tp_1149": false
+      }
+    }
+  },
+  "round_trip_test": {
+    "restored_changed_pixels": null,
+    "restored_precision": null,
+    "restored_recall": null,
+    "restored_iou": null,
+    "restored_dice": null,
+    "restored_screenshot": "landsat_live_method_a_restored.png",
+    "matches_original_method_a": true
+  },
+  "panel_invariance": {}
+}

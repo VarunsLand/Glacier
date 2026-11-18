@@ -1,0 +1,443 @@
+{
+  "timestamp": "2026-11-16 12:42:23",
+  "benchmarks": {
+    "rhone": {
+      "hasError": false,
+      "hasImage": false,
+      "hasDownloadBtn": true,
+      "metrics": [
+        {
+          "label": "Snow/Ice Classified Pixels",
+          "val": "42,638",
+          "delta": ""
+        },
+        {
+          "label": "Surface Coverage Ratio",
+          "val": "65.06%",
+          "delta": ""
+        },
+        {
+          "label": "Mean Scene NDSI",
+          "val": "+0.546",
+          "delta": ""
+        },
+        {
+          "label": "Min Elevation",
+          "val": "2203.8 m",
+          "delta": ""
+        },
+        {
+          "label": "Max Elevation",
+          "val": "3277.7 m",
+          "delta": ""
+        },
+        {
+          "label": "Total Relief",
+          "val": "1074.0 m",
+          "delta": ""
+        },
+        {
+          "label": "Mean Slope",
+          "val": "24.1\u00b0",
+          "delta": ""
+        },
+        {
+          "label": "Total Valid Pixels",
+          "val": "65,536",
+          "delta": ""
+        },
+        {
+          "label": "Detected Changed Pixels",
+          "val": "54,789",
+          "delta": ""
+        },
+        {
+          "label": "Surface Change Ratio",
+          "val": "83.60%",
+          "delta": ""
+        },
+        {
+          "label": "Estimated Detected Pixel-Change Footprint",
+          "val": "49.310 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "Precision (PPV)",
+          "val": "0.0483",
+          "delta": ""
+        },
+        {
+          "label": "Recall (Sensitivity)",
+          "val": "0.3899",
+          "delta": ""
+        },
+        {
+          "label": "Specificity (TNR)",
+          "val": "0.1124",
+          "delta": ""
+        },
+        {
+          "label": "Intersection over Union (IoU)",
+          "val": "0.0449",
+          "delta": ""
+        },
+        {
+          "label": "Dice Score (F1)",
+          "val": "0.0860",
+          "delta": ""
+        },
+        {
+          "label": "BASELINE AREA (1973)",
+          "val": "17.166 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "TERMINAL AREA (2015)",
+          "val": "14.179 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "NET AREA CHANGE",
+          "val": "-2.987 km\u00b2",
+          "delta": "-17.40%"
+        },
+        {
+          "label": "RETAINED CORE ICE",
+          "val": "14.114 km\u00b2",
+          "delta": ""
+        }
+      ],
+      "hasReconciliation": true,
+      "hasTargetCrs": true
+    },
+    "great_aletsch": {
+      "hasError": false,
+      "hasImage": false,
+      "hasDownloadBtn": true,
+      "metrics": [
+        {
+          "label": "Snow/Ice Classified Pixels",
+          "val": "42,638",
+          "delta": ""
+        },
+        {
+          "label": "Surface Coverage Ratio",
+          "val": "65.06%",
+          "delta": ""
+        },
+        {
+          "label": "Mean Scene NDSI",
+          "val": "+0.546",
+          "delta": ""
+        },
+        {
+          "label": "Min Elevation",
+          "val": "2203.8 m",
+          "delta": ""
+        },
+        {
+          "label": "Max Elevation",
+          "val": "3277.7 m",
+          "delta": ""
+        },
+        {
+          "label": "Total Relief",
+          "val": "1074.0 m",
+          "delta": ""
+        },
+        {
+          "label": "Mean Slope",
+          "val": "24.1\u00b0",
+          "delta": ""
+        },
+        {
+          "label": "Total Valid Pixels",
+          "val": "65,536",
+          "delta": ""
+        },
+        {
+          "label": "Detected Changed Pixels",
+          "val": "54,789",
+          "delta": ""
+        },
+        {
+          "label": "Surface Change Ratio",
+          "val": "83.60%",
+          "delta": ""
+        },
+        {
+          "label": "Estimated Detected Pixel-Change Footprint",
+          "val": "49.310 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "Precision (PPV)",
+          "val": "0.0483",
+          "delta": ""
+        },
+        {
+          "label": "Recall (Sensitivity)",
+          "val": "0.3899",
+          "delta": ""
+        },
+        {
+          "label": "Specificity (TNR)",
+          "val": "0.1124",
+          "delta": ""
+        },
+        {
+          "label": "Intersection over Union (IoU)",
+          "val": "0.0449",
+          "delta": ""
+        },
+        {
+          "label": "Dice Score (F1)",
+          "val": "0.0860",
+          "delta": ""
+        },
+        {
+          "label": "BASELINE AREA (1973)",
+          "val": "86.565 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "TERMINAL AREA (2015)",
+          "val": "78.069 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "NET AREA CHANGE",
+          "val": "-8.496 km\u00b2",
+          "delta": "-9.81%"
+        },
+        {
+          "label": "RETAINED CORE ICE",
+          "val": "76.963 km\u00b2",
+          "delta": ""
+        }
+      ],
+      "hasReconciliation": true,
+      "hasTargetCrs": true
+    },
+    "unteraar": {
+      "hasError": false,
+      "hasImage": false,
+      "hasDownloadBtn": true,
+      "metrics": [
+        {
+          "label": "Snow/Ice Classified Pixels",
+          "val": "42,638",
+          "delta": ""
+        },
+        {
+          "label": "Surface Coverage Ratio",
+          "val": "65.06%",
+          "delta": ""
+        },
+        {
+          "label": "Mean Scene NDSI",
+          "val": "+0.546",
+          "delta": ""
+        },
+        {
+          "label": "Min Elevation",
+          "val": "2203.8 m",
+          "delta": ""
+        },
+        {
+          "label": "Max Elevation",
+          "val": "3277.7 m",
+          "delta": ""
+        },
+        {
+          "label": "Total Relief",
+          "val": "1074.0 m",
+          "delta": ""
+        },
+        {
+          "label": "Mean Slope",
+          "val": "24.1\u00b0",
+          "delta": ""
+        },
+        {
+          "label": "Total Valid Pixels",
+          "val": "65,536",
+          "delta": ""
+        },
+        {
+          "label": "Detected Changed Pixels",
+          "val": "54,789",
+          "delta": ""
+        },
+        {
+          "label": "Surface Change Ratio",
+          "val": "83.60%",
+          "delta": ""
+        },
+        {
+          "label": "Estimated Detected Pixel-Change Footprint",
+          "val": "49.310 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "Precision (PPV)",
+          "val": "0.0483",
+          "delta": ""
+        },
+        {
+          "label": "Recall (Sensitivity)",
+          "val": "0.3899",
+          "delta": ""
+        },
+        {
+          "label": "Specificity (TNR)",
+          "val": "0.1124",
+          "delta": ""
+        },
+        {
+          "label": "Intersection over Union (IoU)",
+          "val": "0.0449",
+          "delta": ""
+        },
+        {
+          "label": "Dice Score (F1)",
+          "val": "0.0860",
+          "delta": ""
+        },
+        {
+          "label": "BASELINE AREA (1973)",
+          "val": "27.131 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "TERMINAL AREA (2015)",
+          "val": "20.816 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "NET AREA CHANGE",
+          "val": "-6.316 km\u00b2",
+          "delta": "-23.28%"
+        },
+        {
+          "label": "RETAINED CORE ICE",
+          "val": "20.239 km\u00b2",
+          "delta": ""
+        }
+      ],
+      "hasReconciliation": true,
+      "hasTargetCrs": true
+    },
+    "gorner": {
+      "hasError": false,
+      "hasImage": false,
+      "hasDownloadBtn": true,
+      "metrics": [
+        {
+          "label": "Snow/Ice Classified Pixels",
+          "val": "42,638",
+          "delta": ""
+        },
+        {
+          "label": "Surface Coverage Ratio",
+          "val": "65.06%",
+          "delta": ""
+        },
+        {
+          "label": "Mean Scene NDSI",
+          "val": "+0.546",
+          "delta": ""
+        },
+        {
+          "label": "Min Elevation",
+          "val": "2203.8 m",
+          "delta": ""
+        },
+        {
+          "label": "Max Elevation",
+          "val": "3277.7 m",
+          "delta": ""
+        },
+        {
+          "label": "Total Relief",
+          "val": "1074.0 m",
+          "delta": ""
+        },
+        {
+          "label": "Mean Slope",
+          "val": "24.1\u00b0",
+          "delta": ""
+        },
+        {
+          "label": "Total Valid Pixels",
+          "val": "65,536",
+          "delta": ""
+        },
+        {
+          "label": "Detected Changed Pixels",
+          "val": "54,789",
+          "delta": ""
+        },
+        {
+          "label": "Surface Change Ratio",
+          "val": "83.60%",
+          "delta": ""
+        },
+        {
+          "label": "Estimated Detected Pixel-Change Footprint",
+          "val": "49.310 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "Precision (PPV)",
+          "val": "0.0483",
+          "delta": ""
+        },
+        {
+          "label": "Recall (Sensitivity)",
+          "val": "0.3899",
+          "delta": ""
+        },
+        {
+          "label": "Specificity (TNR)",
+          "val": "0.1124",
+          "delta": ""
+        },
+        {
+          "label": "Intersection over Union (IoU)",
+          "val": "0.0449",
+          "delta": ""
+        },
+        {
+          "label": "Dice Score (F1)",
+          "val": "0.0860",
+          "delta": ""
+        },
+        {
+          "label": "BASELINE AREA (1973)",
+          "val": "57.715 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "TERMINAL AREA (2015)",
+          "val": "41.997 km\u00b2",
+          "delta": ""
+        },
+        {
+          "label": "NET AREA CHANGE",
+          "val": "-15.718 km\u00b2",
+          "delta": "-27.23%"
+        },
+        {
+          "label": "RETAINED CORE ICE",
+          "val": "41.128 km\u00b2",
+          "delta": ""
+        }
+      ],
+      "hasReconciliation": true,
+      "hasTargetCrs": true
+    }
+  },
+  "layer_toggles": {},
+  "errors_detected": []
+}

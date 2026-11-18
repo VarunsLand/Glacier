@@ -1,0 +1,55 @@
+{
+  "dataset_audit": {
+    "train_samples": 32,
+    "test_samples": 100,
+    "patch_overlap": 0,
+    "glacier_id_overlap": 0,
+    "train_glacier_ids": 30,
+    "test_glacier_ids": 91
+  },
+  "model_architecture": {
+    "backbone": "OpenAI CLIP ViT-B-32",
+    "coop_context_tokens": 16,
+    "coop_trainable_params": 8192,
+    "clip_backbone_trainable_params": 0,
+    "backbone_frozen": true,
+    "context_configuration": "Unified / Shared Context (16 tokens shared across classes)"
+  },
+  "metrics": {
+    "clip": {
+      "name": "Zero-Shot CLIP",
+      "TP": 45,
+      "FP": 27,
+      "FN": 5,
+      "TN": 23,
+      "Total": 100,
+      "Accuracy": 0.68,
+      "Precision": 0.625,
+      "Recall": 0.9,
+      "Specificity": 0.46,
+      "F1": 0.7377049180327869,
+      "Balanced_Accuracy": 0.68
+    },
+    "coop": {
+      "name": "Learnable CoOp",
+      "TP": 39,
+      "FP": 12,
+      "FN": 11,
+      "TN": 38,
+      "Total": 100,
+      "Accuracy": 0.77,
+      "Precision": 0.7647058823529411,
+      "Recall": 0.78,
+      "Specificity": 0.76,
+      "F1": 0.7722772277227723,
+      "Balanced_Accuracy": 0.77
+    },
+    "deltas": {
+      "accuracy": 0.09,
+      "precision": 0.1397,
+      "recall": -0.12,
+      "f1": 0.0346,
+      "fp_reduction_pct": 55.56
+    }
+  }
+}

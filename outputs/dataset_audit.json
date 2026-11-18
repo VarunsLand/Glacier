@@ -1,0 +1,8 @@
+{
+    "landsat_A": 683,
+    "landsat_B": 683,
+    "landsat_labels": 683,
+    "landsat_Samples": 4,
+    "dl4gam_patches": 2251,
+    "netcdf_sample": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\datasets\\dl4gam\\extracted\\g_0008\\g_0008_patch_0_xc_172_yc_153.nc"
+}

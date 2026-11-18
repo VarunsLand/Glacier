@@ -1,0 +1,137 @@
+[
+  {
+    "glacier": "Rhone",
+    "state": {
+      "searchVal": "G008379E46648N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Rhone Glacier (Rhonegletscher) (G008379E46648N)",
+      "netChange": "-2.987",
+      "earlierArea": "17.166",
+      "modernArea": "14.179",
+      "pctBadge": "\u25bc -17.40%",
+      "decompList": [
+        "Earlier Outline (1973): 17.166 km\u00b2 (Analysis ID: 342911)",
+        "Later Outline (2015): 14.179 km\u00b2 (Analysis ID: 1095967)",
+        "Retained Core Ice: 14.114 km\u00b2",
+        "Net Surface Shrinkage: 2.987 km\u00b2 (-17.40%)"
+      ],
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/db82a2338eac8a45dbe295d1e2e61898.png",
+          "cap": "Rhone Glacier (Rhonegletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 300 DPI"
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_1_rhone.png"
+  },
+  {
+    "glacier": "Great Aletsch",
+    "state": {
+      "searchVal": "G008032E46504N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Great Aletsch Glacier (Grosser Aletschgletscher) (G008032E46504N)",
+      "netChange": "-8.496",
+      "earlierArea": "86.565",
+      "modernArea": "78.069",
+      "pctBadge": "\u25bc -9.81%",
+      "decompList": [
+        "Earlier Outline (1973): 86.565 km\u00b2 (Analysis ID: 342455)",
+        "Later Outline (2015): 78.069 km\u00b2 (Analysis ID: 1096829)",
+        "Retained Core Ice: 76.963 km\u00b2",
+        "Net Surface Shrinkage: 8.496 km\u00b2 (-9.81%)"
+      ],
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/c9901e8a6c28ca17cd1cce759685a94b.png",
+          "cap": "Great Aletsch Glacier (Grosser Aletschgletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [R"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_2_great_aletsch.png"
+  },
+  {
+    "glacier": "Unteraar",
+    "state": {
+      "searchVal": "G008187E46569N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Unteraar Glacier (Unteraargletscher) (G008187E46569N)",
+      "netChange": "-6.316",
+      "earlierArea": "27.131",
+      "modernArea": "20.816",
+      "pctBadge": "\u25bc -23.28%",
+      "decompList": [
+        "Earlier Outline (1973): 27.131 km\u00b2 (Analysis ID: 342740)",
+        "Later Outline (2015): 20.816 km\u00b2 (Analysis ID: 1096690)",
+        "Retained Core Ice: 20.239 km\u00b2",
+        "Net Surface Shrinkage: 6.316 km\u00b2 (-23.28%)"
+      ],
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/f04f9531d0c7f060edcc049c7be2bd0b.png",
+          "cap": "Unteraar Glacier (Unteraargletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 3"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_3_unteraar.png"
+  },
+  {
+    "glacier": "Gorner",
+    "state": {
+      "searchVal": "G007800E45965N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Gorner Glacier (Gornergletscher) (G007800E45965N)",
+      "netChange": "-15.718",
+      "earlierArea": "57.715",
+      "modernArea": "41.997",
+      "pctBadge": "\u25bc -27.23%",
+      "decompList": [
+        "Earlier Outline (1973): 57.715 km\u00b2 (Analysis ID: 342215)",
+        "Later Outline (2015): 41.997 km\u00b2 (Analysis ID: 1096956)",
+        "Retained Core Ice: 41.128 km\u00b2",
+        "Net Surface Shrinkage: 15.718 km\u00b2 (-27.23%)"
+      ],
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/28f91aef6db1fc01330a988e019f5e57.png",
+          "cap": "Gorner Glacier (Gornergletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 300 D"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_4_gorner.png"
+  },
+  {
+    "glacier": "Findel",
+    "state": {
+      "searchVal": "G007880E45990N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Findel Glacier (Findelgletscher) (G007880E45990N)",
+      "netChange": "-2.531",
+      "earlierArea": "18.603",
+      "modernArea": "16.072",
+      "pctBadge": "\u25bc -13.60%",
+      "decompList": [
+        "Earlier Outline (1973): 18.603 km\u00b2 (Analysis ID: 342320)",
+        "Later Outline (2015): 16.072 km\u00b2 (Analysis ID: 1096563)",
+        "Net Surface Shrinkage: 2.531 km\u00b2 (-13.60%)"
+      ],
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/8c511b97a9ec95b2a0d9efb60056b7d5.png",
+          "cap": "Findel Glacier (Findelgletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 300 D"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_5_findel.png"
+  }
+]

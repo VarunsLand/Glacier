@@ -1,0 +1,31 @@
+{
+  "run_id": 6,
+  "sample_alias": "glacier_test_2 (g_3246)",
+  "desktop_filename": "glacier_test_2.nc",
+  "glacier_id": "g_3246",
+  "original_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\datasets\\dl4gam\\extracted\\g_3246\\g_3246_patch_0_xc_256_yc_384.nc",
+  "model_name": "Supervised U-Net",
+  "model_tag": "unet",
+  "k_shots": 0,
+  "support_glacier_ids": [],
+  "support_unique_glacier_count": 0,
+  "query_glacier_id": "g_3246",
+  "disjoint_verified": true,
+  "split": "fold_test",
+  "glacier_presence_ratio": 0.2859039306640625,
+  "latency_ms": 4.555799998342991,
+  "metrics": {
+    "dice": 0.8628286306203896,
+    "iou": 0.7587498717023715,
+    "precision": 0.9517831852704056,
+    "recall": 0.7890804290970864,
+    "accuracy": 0.928268432617046,
+    "tp": 14785,
+    "fp": 749,
+    "fn": 3952,
+    "tn": 46050
+  },
+  "discrepancy": 0.0,
+  "verdict": "PASS",
+  "saved_npz": "run_06_g_3246_unet.npz"
+}

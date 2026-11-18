@@ -1,0 +1,29 @@
+{
+  "run_id": 11,
+  "sample_alias": "g2759_test",
+  "glacier_id": "g_2759",
+  "original_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\datasets\\dl4gam\\extracted\\g_2759\\g_2759_patch_0_xc_256_yc_256.nc",
+  "model_name": "Supervised U-Net",
+  "model_tag": "unet",
+  "k_shots": 0,
+  "support_glacier_ids": [],
+  "query_glacier_id": "g_2759",
+  "disjoint_verified": true,
+  "split": "fold_test",
+  "glacier_presence_ratio": 0.5037994384765625,
+  "latency_ms": 4.222399998980109,
+  "metrics": {
+    "dice": 0.7408919009995992,
+    "iou": 0.5884259672285401,
+    "precision": 0.9700936412212726,
+    "recall": 0.5992973316774391,
+    "accuracy": 0.7888183593748797,
+    "tp": 19787,
+    "fp": 610,
+    "fn": 13230,
+    "tn": 31909
+  },
+  "discrepancy": 0.0,
+  "verdict": "PASS",
+  "saved_npz": "run_11_g_2759_unet.npz"
+}

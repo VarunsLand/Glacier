@@ -1,0 +1,170 @@
+{
+  "G008379E46648N": {
+    "name": "Rhone Glacier",
+    "geodetic_wgs84": {
+      "earlier_km2": 17.17841925334991,
+      "later_km2": 14.189450057565258,
+      "net_loss_km2": 2.9889691957846534,
+      "pct_loss": 17.399559014731718
+    },
+    "crs_metrics": {
+      "EPSG:3035": {
+        "description": "ETRS89 / LAEA Europe (Lambert Azimuthal Equal Area - INSPIRE / EEA standard)",
+        "earlier_km2": 17.178419254423392,
+        "later_km2": 14.189450056092276,
+        "retained_km2": 14.124513322015874,
+        "lost_km2": 3.0539059324074445,
+        "gained_km2": 0.0649367340763166,
+        "net_loss_km2": 2.988969198331128,
+        "pct_loss": 17.3995590284681,
+        "annual_rate_km2_yr": 0.07116593329359829,
+        "id1_res": 7.460698725481052e-14,
+        "id2_res": 8.526512829121202e-14,
+        "id3_res": 1.199040866595169e-14,
+        "diff_vs_geodetic_pct": 6.249008386203321e-09
+      },
+      "EPSG:32632": {
+        "description": "WGS 84 / UTM Zone 32N (Transverse Mercator - Regional glaciology baseline)",
+        "earlier_km2": 17.16565101771047,
+        "later_km2": 14.17889828470322,
+        "retained_km2": 14.114009942855644,
+        "lost_km2": 3.0516410748547975,
+        "gained_km2": 0.06488834184753388,
+        "net_loss_km2": 2.986752733007264,
+        "pct_loss": 17.399589039330433,
+        "annual_rate_km2_yr": 0.07111316030969676,
+        "id1_res": 2.842170943040401e-14,
+        "id2_res": 4.263256414560601e-14,
+        "id3_res": 1.3322676295501878e-14,
+        "diff_vs_geodetic_pct": -0.07432718605323206
+      },
+      "EPSG:2056": {
+        "description": "CH1903+ / LV95 (Swiss National Grid - swisstopo official)",
+        "earlier_km2": 17.179112423204487,
+        "later_km2": 14.190030041910038,
+        "retained_km2": 14.125090629224141,
+        "lost_km2": 3.054021793980368,
+        "gained_km2": 0.06493941268590567,
+        "net_loss_km2": 2.9890823812944625,
+        "pct_loss": 17.399515805350887,
+        "annual_rate_km2_yr": 0.07116862812605863,
+        "id1_res": 2.1316282072803006e-14,
+        "id2_res": 8.881784197001252e-15,
+        "id3_res": 1.4210854715202004e-14,
+        "diff_vs_geodetic_pct": 0.0040351201373766184
+      }
+    }
+  },
+  "G008032E46504N": {
+    "name": "Great Aletsch Glacier",
+    "geodetic_wgs84": {
+      "earlier_km2": 86.62247869399478,
+      "later_km2": 78.12062119710292,
+      "net_loss_km2": 8.501857496891859,
+      "pct_loss": 9.814839779551656
+    },
+    "crs_metrics": {
+      "EPSG:3035": {
+        "description": "ETRS89 / LAEA Europe (Lambert Azimuthal Equal Area - INSPIRE / EEA standard)",
+        "earlier_km2": 86.62247859219039,
+        "later_km2": 78.12062109760225,
+        "retained_km2": 77.01387454777878,
+        "lost_km2": 9.608604044411782,
+        "gained_km2": 1.1067465498235332,
+        "net_loss_km2": 8.501857494588249,
+        "pct_loss": 9.81483978842733,
+        "annual_rate_km2_yr": 0.20242517844257735,
+        "id1_res": 1.7053025658242404e-13,
+        "id2_res": 5.684341886080802e-14,
+        "id3_res": 1.1191048088221578e-13,
+        "diff_vs_geodetic_pct": -1.1752652481646599e-07
+      },
+      "EPSG:32632": {
+        "description": "WGS 84 / UTM Zone 32N (Transverse Mercator - Regional glaciology baseline)",
+        "earlier_km2": 86.5652183305925,
+        "later_km2": 78.06902588691366,
+        "retained_km2": 76.96301115460096,
+        "lost_km2": 9.60220717599102,
+        "gained_km2": 1.1060147323122071,
+        "net_loss_km2": 8.496192443678813,
+        "pct_loss": 9.814787749084005,
+        "annual_rate_km2_yr": 0.202290296278067,
+        "id1_res": 5.115907697472721e-13,
+        "id2_res": 4.973799150320701e-13,
+        "id3_res": 2.3092638912203256e-14,
+        "diff_vs_geodetic_pct": -0.06610335361628022
+      },
+      "EPSG:2056": {
+        "description": "CH1903+ / LV95 (Swiss National Grid - swisstopo official)",
+        "earlier_km2": 86.62918971651831,
+        "later_km2": 78.12660081848644,
+        "retained_km2": 77.01976548838579,
+        "lost_km2": 9.609424228132825,
+        "gained_km2": 1.1068353301014817,
+        "net_loss_km2": 8.502588898031343,
+        "pct_loss": 9.814923729351335,
+        "annual_rate_km2_yr": 0.20244259281027008,
+        "id1_res": 2.984279490192421e-13,
+        "id2_res": 8.242295734817162e-13,
+        "id3_res": 5.311306949806749e-13,
+        "diff_vs_geodetic_pct": 0.007747437645186845
+      }
+    }
+  },
+  "G008187E46569N": {
+    "name": "Unteraar Glacier",
+    "geodetic_wgs84": {
+      "earlier_km2": 27.150459019369826,
+      "later_km2": 20.830098930382007,
+      "net_loss_km2": 6.320360088987819,
+      "pct_loss": 23.27901743568576
+    },
+    "crs_metrics": {
+      "EPSG:3035": {
+        "description": "ETRS89 / LAEA Europe (Lambert Azimuthal Equal Area - INSPIRE / EEA standard)",
+        "earlier_km2": 27.150459093650475,
+        "later_km2": 20.830099007063815,
+        "retained_km2": 20.25351403699306,
+        "lost_km2": 6.89694505665755,
+        "gained_km2": 0.5765849700708877,
+        "net_loss_km2": 6.320360086586662,
+        "pct_loss": 23.279017363153056,
+        "annual_rate_km2_yr": 0.1504847639663491,
+        "id1_res": 1.3500311979441904e-13,
+        "id2_res": 1.3145040611561853e-13,
+        "id3_res": 1.7763568394002505e-15,
+        "diff_vs_geodetic_pct": 2.7358892582308433e-07
+      },
+      "EPSG:32632": {
+        "description": "WGS 84 / UTM Zone 32N (Transverse Mercator - Regional glaciology baseline)",
+        "earlier_km2": 27.131459519186784,
+        "later_km2": 20.815547481004522,
+        "retained_km2": 20.23936221156754,
+        "lost_km2": 6.892097307619025,
+        "gained_km2": 0.5761852694369329,
+        "net_loss_km2": 6.315912038182092,
+        "pct_loss": 23.278924724693177,
+        "annual_rate_km2_yr": 0.15037885805195458,
+        "id1_res": 2.2026824808563106e-13,
+        "id2_res": 4.973799150320701e-14,
+        "id3_res": 1.6964207816272392e-13,
+        "diff_vs_geodetic_pct": -0.06997855973443323
+      },
+      "EPSG:2056": {
+        "description": "CH1903+ / LV95 (Swiss National Grid - swisstopo official)",
+        "earlier_km2": 27.15209402532494,
+        "later_km2": 20.831351203603198,
+        "retained_km2": 20.254733067387583,
+        "lost_km2": 6.89736095793742,
+        "gained_km2": 0.5766181362156315,
+        "net_loss_km2": 6.3207428217217885,
+        "pct_loss": 23.279025241391658,
+        "annual_rate_km2_yr": 0.15049387670766162,
+        "id1_res": 6.394884621840902e-14,
+        "id2_res": 1.7763568394002505e-14,
+        "id3_res": 4.796163466380676e-14,
+        "diff_vs_geodetic_pct": 0.0060220195686039035
+      }
+    }
+  }
+}

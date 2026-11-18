@@ -1,0 +1,48 @@
+{
+  "audit_title": "GlacierVision Objective 5 Split Integrity Audit",
+  "manifest_file": "datasets\\dl4gam\\data\\map_all_splits_all_folds.csv",
+  "manifest_summary": {
+    "total_basins": 1593,
+    "fold_train_basins": 986,
+    "fold_valid_basins": 181,
+    "fold_test_basins": 426,
+    "pairwise_split_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    }
+  },
+  "held_out_evaluation_audit": {
+    "total_evaluated_samples": 100,
+    "duplicate_samples": 0,
+    "class_balance": {
+      "glacier_ice_label_1": 50,
+      "mountain_bedrock_label_0": 50,
+      "is_perfectly_balanced": true
+    },
+    "basin_representation": {
+      "unique_basins_count": 91,
+      "claimed_basins_count": 91,
+      "matches_claim": true,
+      "all_basins_in_fold_test": true,
+      "overlap_with_fold_train": 0,
+      "overlap_with_fold_valid": 0,
+      "data_leakage_detected": false,
+      "basin_sample_frequencies": {
+        "basins_with_1_sample": 82,
+        "basins_with_2_samples": 9,
+        "basins_with_gt_2_samples": 0
+      }
+    }
+  },
+  "coop_training_isolation": {
+    "training_samples_count": 32,
+    "training_split_source": "fold_train",
+    "training_glacier_basins_count": 30,
+    "training_overlap_with_test_basins": 0,
+    "test_samples_used_in_training": 0,
+    "test_samples_used_in_tuning": 0,
+    "validation_split_status": "isolated"
+  },
+  "conclusion": "PASSED: Zero geographic or sample-level data leakage between training and held-out test splits. All 91 basins are strictly unique to fold_test."
+}

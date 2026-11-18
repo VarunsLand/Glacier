@@ -1,0 +1,209 @@
+{
+  "dataset": "GLIMS Global Land Ice Measurements from Space (Validated)",
+  "methodology": "Multi-polygon part aggregation per observation; removal of incomplete fragments (tau=0.20); plausible ratio filtering [0.15, 3.00]; Delta t in [3.0, 50.0] years.",
+  "total_glaciers_analyzed": 81598,
+  "mean_observation_gap_years": 11.65,
+  "temporal_interpretation": "Pooled selected-pair area changes across asynchronous observation baselines (mean: 11.65 yr, min: 3.0 yr, max: 49.0 yr), not a synchronized global mass balance snapshot.",
+  "temporal_grouping": {
+    "3_to_5_years": { "glaciers": 12972, "earlier_area_km2": 22979.69, "later_area_km2": 22536.99, "net_loss_km2": 442.69, "net_reduction_pct": 1.93, "retreating_pct": 48.68 },
+    "5_to_10_years": { "glaciers": 32632, "earlier_area_km2": 51300.18, "later_area_km2": 46587.56, "net_loss_km2": 4712.62, "net_reduction_pct": 9.19, "retreating_pct": 62.73 },
+    "10_to_15_years": { "glaciers": 18201, "earlier_area_km2": 54038.61, "later_area_km2": 49041.01, "net_loss_km2": 4997.60, "net_reduction_pct": 9.25, "retreating_pct": 72.17 },
+    "15_to_20_years": { "glaciers": 8727, "earlier_area_km2": 54483.60, "later_area_km2": 52755.82, "net_loss_km2": 1727.78, "net_reduction_pct": 3.17, "retreating_pct": 70.39 },
+    "greater_than_20_years": { "glaciers": 9066, "earlier_area_km2": 37834.14, "later_area_km2": 33393.07, "net_loss_km2": 4441.08, "net_reduction_pct": 11.74, "retreating_pct": 95.46 }
+  },
+  "area_change_accounting": {
+    "total_earlier_area_km2": 220636.22,
+    "total_later_area_km2": 204314.45,
+    "gross_area_lost_km2": 27330.47,
+    "gross_area_gained_km2": 11008.71,
+    "net_area_loss_km2": 16321.76,
+    "gross_minus_gain_equals_net": true,
+    "conservation_residual_km2": 0.0,
+    "net_aggregate_percentage_loss": 7.4,
+    "mean_individual_percentage_change": 10.75,
+    "median_individual_percentage_change": 12.25
+  },
+  "net_area_loss_km2": 16321.76,
+  "gross_area_lost_km2": 27330.47,
+  "gross_area_gained_km2": 11008.71,
+  "total_earlier_area_km2": 220636.22,
+  "total_later_area_km2": 204314.45,
+  "net_aggregate_percentage_loss": 7.4,
+  "mean_individual_percentage_change": 10.75,
+  "median_individual_percentage_change": 12.25,
+  "retreating_glaciers_count": 54718,
+  "retreating_glaciers_ratio_pct": 67.06,
+  "advancing_glaciers_count": 20132,
+  "advancing_glaciers_ratio_pct": 24.67,
+  "stable_glaciers_count": 6748,
+  "stable_glaciers_ratio_pct": 8.27,
+  "classification_partitions": {
+    "glaciological_3_class_partition_2pct_deadband": {
+      "description": "Recommended mutually exclusive glaciological partition accounting for +/-2% mapping and co-registration uncertainty.",
+      "retreating_glaciers_count": 54718,
+      "retreating_glaciers_pct": 67.06,
+      "advancing_glaciers_count": 20132,
+      "advancing_glaciers_pct": 24.67,
+      "stable_glaciers_count": 6748,
+      "stable_glaciers_pct": 8.27,
+      "sum_counts": 81598,
+      "sum_pcts": 100.0
+    },
+    "glaciological_4_class_partition": {
+      "significant_retreat_gte_10pct": {
+        "count": 43676,
+        "percentage": 53.53
+      },
+      "moderate_retreat_2_to_10pct": {
+        "count": 11042,
+        "percentage": 13.53
+      },
+      "stable_equilibrium_minus2_to_plus2pct": {
+        "count": 6748,
+        "percentage": 8.27
+      },
+      "advance_growth_lte_minus2pct": {
+        "count": 20132,
+        "percentage": 24.67
+      },
+      "sum_counts": 81598,
+      "sum_pcts": 100.0
+    },
+    "zero_threshold_partition_exact_zero": {
+      "description": "Strict mathematical sign partition with zero deadband.",
+      "strict_loss_gt_0": {
+        "count": 57477,
+        "percentage": 70.44
+      },
+      "strict_gain_lt_0": {
+        "count": 22471,
+        "percentage": 27.54
+      },
+      "strict_zero_eq_0": {
+        "count": 1650,
+        "percentage": 2.02
+      },
+      "sum_counts": 81598,
+      "sum_pcts": 100.0
+    }
+  },
+  "mass_balance": {
+    "total_earlier_area_km2": 220636.22,
+    "total_later_area_km2": 204314.45,
+    "gross_area_lost_km2": 27330.47,
+    "gross_area_gained_km2": 11008.71,
+    "net_area_loss_km2": 16321.76,
+    "gross_minus_gain_equals_net": true,
+    "net_aggregate_percentage_loss": 7.4,
+    "mean_individual_percentage_change": 10.75,
+    "median_individual_percentage_change": 12.25
+  },
+  "dynamics_breakdown": {
+    "Significant Retreat": 43676,
+    "Advance / Growth": 20132,
+    "Moderate Retreat": 11042,
+    "Stable / Equilibrium": 6748
+  },
+  "top_10_retreat_glaciers": [
+    {
+      "glacier_id": "G217991E60521N",
+      "earlier_date": "2001-08-15",
+      "later_date": "2010-09-10",
+      "time_gap_years": 9.07,
+      "earlier_area_km2": 3631.93,
+      "later_area_km2": 3025.11,
+      "area_loss_km2": 606.82,
+      "percentage_change": 16.71
+    },
+    {
+      "glacier_id": "G049805E80531N",
+      "earlier_date": "2006-07-10",
+      "later_date": "2016-07-12",
+      "time_gap_years": 10.01,
+      "earlier_area_km2": 512.015,
+      "later_area_km2": 136.291,
+      "area_loss_km2": 375.724,
+      "percentage_change": 73.38
+    },
+    {
+      "glacier_id": "G077439E35510N",
+      "earlier_date": "2002-08-02",
+      "later_date": "2009-08-13",
+      "time_gap_years": 7.03,
+      "earlier_area_km2": 439.616,
+      "later_area_km2": 70.8081,
+      "area_loss_km2": 368.8079,
+      "percentage_change": 83.89
+    },
+    {
+      "glacier_id": "G217393E60642N",
+      "earlier_date": "2000-08-31",
+      "later_date": "2010-09-19",
+      "time_gap_years": 10.05,
+      "earlier_area_km2": 822.807,
+      "later_area_km2": 514.803,
+      "area_loss_km2": 308.004,
+      "percentage_change": 37.43
+    },
+    {
+      "glacier_id": "G284432E82157N",
+      "earlier_date": "1999-06-15",
+      "later_date": "2015-07-12",
+      "time_gap_years": 16.07,
+      "earlier_area_km2": 1734.5,
+      "later_area_km2": 1469.1687,
+      "area_loss_km2": 265.3313,
+      "percentage_change": 15.3
+    },
+    {
+      "glacier_id": "G094346E80731N",
+      "earlier_date": "2006-07-13",
+      "later_date": "2020-07-06",
+      "time_gap_years": 13.98,
+      "earlier_area_km2": 1243.5,
+      "later_area_km2": 1002.52,
+      "area_loss_km2": 240.98,
+      "percentage_change": 19.38
+    },
+    {
+      "glacier_id": "G283701E81801N",
+      "earlier_date": "1999-06-15",
+      "later_date": "2015-07-14",
+      "time_gap_years": 16.08,
+      "earlier_area_km2": 763.348,
+      "later_area_km2": 526.53,
+      "area_loss_km2": 236.818,
+      "percentage_change": 31.02
+    },
+    {
+      "glacier_id": "G090525E81130N",
+      "earlier_date": "2010-08-21",
+      "later_date": "2020-07-07",
+      "time_gap_years": 9.88,
+      "earlier_area_km2": 405.725,
+      "later_area_km2": 200.509,
+      "area_loss_km2": 205.216,
+      "percentage_change": 50.58
+    },
+    {
+      "glacier_id": "G079469E80816N",
+      "earlier_date": "2007-07-02",
+      "later_date": "2020-07-07",
+      "time_gap_years": 13.02,
+      "earlier_area_km2": 318.871,
+      "later_area_km2": 129.094,
+      "area_loss_km2": 189.777,
+      "percentage_change": 59.52
+    },
+    {
+      "glacier_id": "G099097E79056N",
+      "earlier_date": "2001-06-21",
+      "later_date": "2019-08-27",
+      "time_gap_years": 18.18,
+      "earlier_area_km2": 359.213,
+      "later_area_km2": 172.809,
+      "area_loss_km2": 186.404,
+      "percentage_change": 51.89
+    }
+  ]
+}

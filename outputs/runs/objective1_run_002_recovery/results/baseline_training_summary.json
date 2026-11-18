@@ -1,0 +1,8 @@
+{
+  "training_duration_minutes": 245.75,
+  "total_epochs_run": 8,
+  "best_epoch": 5,
+  "best_val_dice": 0.6647874948814123,
+  "peak_vram_mb": 132.21,
+  "checkpoint_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery\\checkpoints\\unet_baseline_best.pt"
+}

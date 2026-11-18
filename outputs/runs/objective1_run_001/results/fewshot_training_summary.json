@@ -1,0 +1,8 @@
+{
+  "training_duration_minutes": 355.35,
+  "total_epochs_run": 15,
+  "best_epoch": 14,
+  "best_val_dice": 0.4735175830241223,
+  "peak_vram_mb": 319.26,
+  "checkpoint_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_001\\checkpoints\\fewshot_protonet_best.pt"
+}

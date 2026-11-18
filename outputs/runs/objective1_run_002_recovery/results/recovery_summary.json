@@ -1,0 +1,13 @@
+{
+  "status": "COMPLETED",
+  "recovery_run_dir": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery",
+  "total_epochs": 11,
+  "resumed_epoch": 9,
+  "final_epoch": 11,
+  "best_val_dice": 0.4644802310167717,
+  "best_checkpoint": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery\\checkpoints\\fewshot_protonet_best.pt",
+  "last_checkpoint": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery\\checkpoints\\fewshot_protonet_last.pt",
+  "history_file": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery\\results\\fewshot_protonet_history.csv",
+  "continuation_duration_minutes": 29.51,
+  "peak_vram_mb": 319.26
+}

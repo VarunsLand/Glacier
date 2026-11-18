@@ -1,0 +1,782 @@
+{
+  "G008379E46648N": [
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 166381.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 14.9088,
+      "src_date": "2009-09-15T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 337549.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 19.5638,
+      "src_date": "1850-09-01T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 340001.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 14.9086,
+      "src_date": "2008-09-30T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 342911.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 17.1784,
+      "src_date": "1973-09-01T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 85996.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 15.0428,
+      "src_date": "1998-08-31T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 754337.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 14.8156,
+      "src_date": "2003-08-13T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1030448.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 15.3055,
+      "src_date": "1999-09-12T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1037288.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 12.8395,
+      "src_date": "2014-09-12T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1080191.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 14.8165,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1095967.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 14.0702,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1095968.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 0.119241,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100397.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 13.1621,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100398.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 0.040684,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1122234.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 18.0714,
+      "src_date": "1928-09-14T00:00:00",
+      "glac_name": "Triftgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1124482.0,
+      "glac_id": "G008379E46648N",
+      "db_area": 14.4069,
+      "src_date": "2016-09-01T00:00:00",
+      "glac_name": "Triftgletscher"
+    }
+  ],
+  "G008032E46504N": [
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 336665.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 105.608,
+      "src_date": "1850-09-01T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 339620.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 78.1243,
+      "src_date": "2008-09-30T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 342455.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 86.6213,
+      "src_date": "1973-09-01T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 86154.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 82.3325,
+      "src_date": "1998-08-31T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 753957.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 81.7815,
+      "src_date": "2003-08-13T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1030178.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 84.269,
+      "src_date": "2000-08-20T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1037054.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 79.5323,
+      "src_date": "2013-08-01T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1079775.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 78.1252,
+      "src_date": "2009-09-15T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1080202.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.001472,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1080183.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.004327,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1080198.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 82.6193,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1099865.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.009211,
+      "src_date": "2011-07-02T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096830.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.014309,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096824.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.32631,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096825.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.312554,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096828.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.147679,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096829.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 77.3184,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1099822.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.234113,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1099821.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 75.7981,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1099713.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.016461,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1099866.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 0.051339,
+      "src_date": "2011-07-02T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1121871.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 99.6749,
+      "src_date": "1926-09-01T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1124121.0,
+      "glac_id": "G008032E46504N",
+      "db_area": 78.4876,
+      "src_date": "2017-09-01T00:00:00",
+      "glac_name": "Grosser Aletschgletscher"
+    }
+  ],
+  "G008187E46569N": [
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 332196.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 23.8253,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 336820.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 33.406,
+      "src_date": "1850-09-01T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 339865.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 21.9297,
+      "src_date": "2008-09-30T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 342740.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 27.1475,
+      "src_date": "1973-09-01T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 86073.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 24.6418,
+      "src_date": "1998-08-31T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 754201.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 23.5507,
+      "src_date": "2003-08-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1030351.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 24.6073,
+      "src_date": "1999-09-12T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1037203.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 21.0929,
+      "src_date": "2013-08-01T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1079702.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 21.93,
+      "src_date": "2009-09-15T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100234.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.307021,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100235.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.356605,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096687.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.241766,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096688.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.169521,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096690.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 20.4188,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100236.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.124356,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100237.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.052789,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100238.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 0.088113,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1100233.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 18.9184,
+      "src_date": "2011-09-13T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1122051.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 29.2574,
+      "src_date": "1927-09-28T00:00:00",
+      "glac_name": "Unteraargletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1124367.0,
+      "glac_id": "G008187E46569N",
+      "db_area": 22.1276,
+      "src_date": "2016-09-01T00:00:00",
+      "glac_name": "Unteraargletscher"
+    }
+  ],
+  "G007800E45965N": [
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 166816.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 40.2306,
+      "src_date": "2009-09-15T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 330633.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 56.4641,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 337055.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 65.4677,
+      "src_date": "1850-09-01T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 339385.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 40.2302,
+      "src_date": "2008-09-30T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 342215.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 57.7492,
+      "src_date": "1973-09-01T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 86680.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 55.9321,
+      "src_date": "1998-08-31T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 753730.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 56.6037,
+      "src_date": "2003-08-13T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1029901.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 57.3296,
+      "src_date": "2000-08-20T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096955.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 1.86177,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096956.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 40.1592,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1099928.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 52.5473,
+      "src_date": "2011-08-28T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1101152.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 40.7483,
+      "src_date": "2014-09-12T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1101153.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 10.9719,
+      "src_date": "2014-09-12T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1121368.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 62.3989,
+      "src_date": "1930-08-11T00:00:00",
+      "glac_name": "Gornergletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1123899.0,
+      "glac_id": "G007800E45965N",
+      "db_area": 41.1876,
+      "src_date": "2016-09-01T00:00:00",
+      "glac_name": "Gornergletscher"
+    }
+  ],
+  "G010725E46789N": [
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 334598.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 2.38324,
+      "src_date": "2003-07-30T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 363302.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 2.8283,
+      "src_date": "2011-09-30T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 709596.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 2.30966,
+      "src_date": "2016-09-29T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 755511.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 2.38324,
+      "src_date": "2003-07-30T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1031480.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 2.49337,
+      "src_date": "2000-08-22T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1034947.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 1.89567,
+      "src_date": "2011-08-21T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1038296.0,
+      "glac_id": "G010725E46789N",
+      "db_area": 2.03996,
+      "src_date": "2015-09-01T00:00:00",
+      "glac_name": "Mazia / Matscher"
+    }
+  ],
+  "G007880E45990N": [
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 330861.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 14.3121,
+      "src_date": "2003-08-06T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 337161.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 21.8571,
+      "src_date": "1850-09-01T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 339494.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 13.7116,
+      "src_date": "2008-09-30T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 342320.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 18.6141,
+      "src_date": "1973-09-01T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 86640.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 13.3383,
+      "src_date": "1998-08-31T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 753829.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 14.3121,
+      "src_date": "2003-08-13T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1029990.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 14.7271,
+      "src_date": "2000-08-20T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1033490.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 14.1636,
+      "src_date": "2011-08-28T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1036876.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 13.3576,
+      "src_date": "2014-09-12T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1080007.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 0.480387,
+      "src_date": "2009-09-15T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1080008.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 13.7118,
+      "src_date": "2009-09-15T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096564.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 0.518324,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096562.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 2.0656,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1096563.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 13.498,
+      "src_date": "2015-08-29T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1121504.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 20.0886,
+      "src_date": "1930-08-28T00:00:00",
+      "glac_name": "Findelgletscher"
+    },
+    {
+      "line_type": "glac_bound",
+      "anlys_id": 1123997.0,
+      "glac_id": "G007880E45990N",
+      "db_area": 13.397,
+      "src_date": "2016-09-01T00:00:00",
+      "glac_name": "Findelgletscher"
+    }
+  ]
+}

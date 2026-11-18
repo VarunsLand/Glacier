@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.bak
+*.bak_*
+
+# Caches and temporary files
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
+*.tmp
+*.log
+
+# Raw Satellite Datasets (>23 GB archive files)
+datasets/
+
+# Local Browser Audit Screenshots (~1 GB)
+outputs/audits/screenshots/
+
+# Environment
+.env
+.venv/
+env/
+venv/

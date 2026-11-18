@@ -1,0 +1,40 @@
+{
+  "run_id": 9,
+  "sample_alias": "g3560_demo2",
+  "glacier_id": "g_3560",
+  "original_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\datasets\\dl4gam\\extracted\\g_3560\\g_3560_patch_0_xc_256_yc_256.nc",
+  "model_name": "ProtoNet K=10",
+  "model_tag": "protonet_k10",
+  "k_shots": 10,
+  "support_glacier_ids": [
+    "g_2860",
+    "g_3073",
+    "g_0185",
+    "g_0484",
+    "g_0149",
+    "g_2854",
+    "g_3168",
+    "g_2922",
+    "g_2873",
+    "g_0593"
+  ],
+  "query_glacier_id": "g_3560",
+  "disjoint_verified": true,
+  "split": "fold_test",
+  "glacier_presence_ratio": 0.252685546875,
+  "latency_ms": 29.654699996171985,
+  "metrics": {
+    "dice": 0.7808783165597284,
+    "iou": 0.6405253283299394,
+    "precision": 0.6741706161134482,
+    "recall": 0.9277173913037876,
+    "accuracy": 0.8684387207029926,
+    "tp": 15363,
+    "fp": 7425,
+    "fn": 1197,
+    "tn": 41551
+  },
+  "discrepancy": 0.0,
+  "verdict": "PASS",
+  "saved_npz": "run_09_g_3560_protonet_k10.npz"
+}

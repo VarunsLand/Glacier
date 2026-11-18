@@ -1,0 +1,30 @@
+{
+  "model": "GlacierUNet (Supervised Baseline)",
+  "objective": "Objective 1: Supervised Baseline Benchmark",
+  "split": "split_1",
+  "train_patches": 1475,
+  "val_patches": 242,
+  "test_patches": 534,
+  "epochs": 8,
+  "batch_size": 2,
+  "lr": 0.001,
+  "base_channels": 16,
+  "patience": 3,
+  "seed": 42,
+  "mixed_precision": "FP16 (torch.amp.autocast)",
+  "channel_order": [
+    "B1",
+    "B2",
+    "B3",
+    "B4",
+    "B5",
+    "B6",
+    "B7",
+    "B8",
+    "B8A",
+    "B9",
+    "B10",
+    "B11",
+    "B12"
+  ]
+}

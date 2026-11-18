@@ -1,0 +1,86 @@
+[
+  {
+    "step": "1_Rhone_Initial",
+    "state": {
+      "searchVal": "G008379E46648N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Rhone Glacier (Rhonegletscher) (G008379E46648N)",
+      "netChange": "-2.987",
+      "btnStates": {
+        "Rhone": "primary",
+        "Great Aletsch": "secondary",
+        "Unteraar": "secondary",
+        "Gorner": "secondary"
+      }
+    }
+  },
+  {
+    "step": "2_Great_Aletsch",
+    "state": {
+      "searchVal": "G008032E46504N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Great Aletsch Glacier (Grosser Aletschgletscher) (G008032E46504N)",
+      "netChange": "-8.496",
+      "btnStates": {
+        "Rhone": "secondary",
+        "Great Aletsch": "primary",
+        "Unteraar": "secondary",
+        "Gorner": "secondary"
+      }
+    }
+  },
+  {
+    "step": "3_Unteraar",
+    "state": {
+      "searchVal": "G008187E46569N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Unteraar Glacier (Unteraargletscher) (G008187E46569N)",
+      "netChange": "-6.316",
+      "btnStates": {
+        "Rhone": "secondary",
+        "Great Aletsch": "secondary",
+        "Unteraar": "primary",
+        "Gorner": "secondary"
+      }
+    }
+  },
+  {
+    "step": "4_Gorner",
+    "state": {
+      "searchVal": "G007800E45965N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Gorner Glacier (Gornergletscher) (G007800E45965N)",
+      "netChange": "-15.718",
+      "btnStates": {
+        "Rhone": "secondary",
+        "Great Aletsch": "secondary",
+        "Unteraar": "secondary",
+        "Gorner": "primary"
+      }
+    }
+  },
+  {
+    "step": "5_Rhone_Return",
+    "state": {
+      "searchVal": "G008379E46648N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Rhone Glacier (Rhonegletscher) (G008379E46648N)",
+      "netChange": "-2.987",
+      "btnStates": {
+        "Rhone": "primary",
+        "Great Aletsch": "secondary",
+        "Unteraar": "secondary",
+        "Gorner": "secondary"
+      }
+    }
+  },
+  {
+    "step": "6_Manual_Findel",
+    "state": {
+      "searchVal": "G007880E45990N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Findel Glacier (Findelgletscher) (G007880E45990N)",
+      "netChange": "-2.532",
+      "btnStates": {
+        "Rhone": "secondary",
+        "Great Aletsch": "secondary",
+        "Unteraar": "secondary",
+        "Gorner": "secondary"
+      }
+    }
+  }
+]

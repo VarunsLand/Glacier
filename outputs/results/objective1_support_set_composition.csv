@@ -1,0 +1,21 @@
+glacier_id,patch_name,patch_path,ice_ratio,rank,in_k1,in_k5,in_k10,in_k20
+g_2860,g_2860_patch_0_xc_161_yc_181.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2860\g_2860_patch_0_xc_161_yc_181.nc,0.0757904052734375,1,True,True,True,True
+g_3073,g_3073_patch_34_xc_512_yc_1024.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_3073\g_3073_patch_34_xc_512_yc_1024.nc,0.8745269775390625,2,False,True,True,True
+g_0185,g_0185_patch_0_xc_155_yc_186.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_0185\g_0185_patch_0_xc_155_yc_186.nc,0.0516204833984375,3,False,True,True,True
+g_0484,g_0484_patch_0_xc_192_yc_158.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_0484\g_0484_patch_0_xc_192_yc_158.nc,0.07598876953125,4,False,True,True,True
+g_0149,g_0149_patch_0_xc_252_yc_171.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_0149\g_0149_patch_0_xc_252_yc_171.nc,0.16656494140625,5,False,True,True,True
+g_2854,g_2854_patch_1_xc_247_yc_240.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2854\g_2854_patch_1_xc_247_yc_240.nc,0.4828033447265625,6,False,False,True,True
+g_3168,g_3168_patch_5_xc_290_yc_451.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_3168\g_3168_patch_5_xc_290_yc_451.nc,0.8969573974609375,7,False,False,True,True
+g_2922,g_2922_patch_6_xc_512_yc_384.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2922\g_2922_patch_6_xc_512_yc_384.nc,0.6027984619140625,8,False,False,True,True
+g_2873,g_2873_patch_2_xc_256_yc_512.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2873\g_2873_patch_2_xc_256_yc_512.nc,0.278472900390625,9,False,False,True,True
+g_0593,g_0593_patch_0_xc_128_yc_256.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_0593\g_0593_patch_0_xc_128_yc_256.nc,0.178253173828125,10,False,False,True,True
+g_2969,g_2969_patch_2_xc_256_yc_512.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2969\g_2969_patch_2_xc_256_yc_512.nc,0.37872314453125,11,False,False,False,True
+g_1741,g_1741_patch_0_xc_166_yc_189.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_1741\g_1741_patch_0_xc_166_yc_189.nc,0.0669708251953125,12,False,False,False,True
+g_0599,g_0599_patch_0_xc_128_yc_256.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_0599\g_0599_patch_0_xc_128_yc_256.nc,0.165496826171875,13,False,False,False,True
+g_3023,g_3023_patch_4_xc_512_yc_384.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_3023\g_3023_patch_4_xc_512_yc_384.nc,0.874847412109375,14,False,False,False,True
+g_1779,g_1779_patch_0_xc_156_yc_177.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_1779\g_1779_patch_0_xc_156_yc_177.nc,0.0617218017578125,15,False,False,False,True
+g_2964,g_2964_patch_0_xc_258_yc_212.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2964\g_2964_patch_0_xc_258_yc_212.nc,0.299041748046875,16,False,False,False,True
+g_0519,g_0519_patch_0_xc_201_yc_205.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_0519\g_0519_patch_0_xc_201_yc_205.nc,0.109832763671875,17,False,False,False,True
+g_3042,g_3042_patch_6_xc_512_yc_640.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_3042\g_3042_patch_6_xc_512_yc_640.nc,0.3753204345703125,18,False,False,False,True
+g_2968,g_2968_patch_0_xc_384_yc_256.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2968\g_2968_patch_0_xc_384_yc_256.nc,0.447021484375,19,False,False,False,True
+g_2871,g_2871_patch_0_xc_384_yc_256.nc,C:\Users\Varun's LOQ\Desktop\GlacierResearch\datasets\dl4gam\extracted\g_2871\g_2871_patch_0_xc_384_yc_256.nc,0.563751220703125,20,False,False,False,True

@@ -1,0 +1,35 @@
+{
+  "timestamp": "2026-11-16 18:11:31",
+  "kpi_cards": [
+    {
+      "label": "COOP TEST ACCURACY",
+      "val": "77.00%",
+      "badge": "\u25b2\n+9.00% vs Zero-Shot"
+    },
+    {
+      "label": "COOP TEST PRECISION",
+      "val": "0.7647",
+      "badge": "\u25b2\n+0.1397 vs Zero-Shot"
+    },
+    {
+      "label": "FALSE POSITIVE DROP",
+      "val": "-55.6%",
+      "badge": "\u25bc\n12 FP (CoOp) vs 27 FP (CLIP)"
+    },
+    {
+      "label": "TRAINED PARAMETERS",
+      "val": "8,192",
+      "badge": "M=16 Context Tokens (Frozen Backbone)"
+    }
+  ],
+  "single_image_tests": {},
+  "benchmark_table": {
+    "hasTable": true,
+    "hasCSVDownload": true,
+    "hasFigureDownload": true,
+    "has68": false,
+    "has77": false,
+    "hasTradeoff": true
+  },
+  "errors": []
+}

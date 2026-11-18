@@ -1,0 +1,36 @@
+{
+  "sample_index": 1,
+  "sample_id": "g_4368/g_4368_patch_0_xc_256_yc_256.nc",
+  "glacier_id": "g_4368",
+  "ground_truth_class": "Glacier Ice",
+  "ground_truth_label": 1,
+  "ice_ratio": 0.5646209716796875,
+  "spectral_bands": {
+    "red_channel": "Sentinel-2 MSI Band B04 (665 nm, index 3)",
+    "green_channel": "Sentinel-2 MSI Band B03 (560 nm, index 2)",
+    "blue_channel": "Sentinel-2 MSI Band B02 (490 nm, index 1)",
+    "scale_factor_to_reflectance": 0.0001
+  },
+  "live_inference_predictions": {
+    "clip": {
+      "prediction": "Glacier Ice",
+      "class_idx": 1,
+      "probabilities": {
+        "Mountain Bedrock": 0.17216940224170685,
+        "Glacier Ice": 0.8278306126594543
+      },
+      "confidence": 0.8278306126594543
+    },
+    "coop": {
+      "prediction": "Glacier Ice",
+      "class_idx": 1,
+      "probabilities": {
+        "Mountain Bedrock": 0.2781725227832794,
+        "Glacier Ice": 0.7218274474143982
+      },
+      "confidence": 0.7218274474143982
+    },
+    "agreement": true,
+    "latency_ms": 84.81769997160882
+  }
+}

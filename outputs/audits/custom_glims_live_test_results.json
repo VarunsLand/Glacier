@@ -1,0 +1,146 @@
+[
+  {
+    "step": "1_Rhone",
+    "state": {
+      "searchVal": "G008379E46648N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Rhone Glacier (Rhonegletscher) (G008379E46648N)",
+      "warningText": "",
+      "infoText": "",
+      "netChange": "-2.987",
+      "earlierArea": "17.166",
+      "modernArea": "14.179",
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/db82a2338eac8a45dbe295d1e2e61898.png",
+          "cap": "Rhone Glacier (Rhonegletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 300 DPI"
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_1_rhone.png"
+  },
+  {
+    "step": "2_Great_Aletsch",
+    "state": {
+      "searchVal": "G008032E46504N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Great Aletsch Glacier (Grosser Aletschgletscher) (G008032E46504N)",
+      "warningText": "",
+      "infoText": "",
+      "netChange": "-8.496",
+      "earlierArea": "86.565",
+      "modernArea": "78.069",
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/c9901e8a6c28ca17cd1cce759685a94b.png",
+          "cap": "Great Aletsch Glacier (Grosser Aletschgletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [R"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_2_great_aletsch.png"
+  },
+  {
+    "step": "3_Unteraar",
+    "state": {
+      "searchVal": "G008187E46569N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Unteraar Glacier (Unteraargletscher) (G008187E46569N)",
+      "warningText": "",
+      "infoText": "",
+      "netChange": "-6.316",
+      "earlierArea": "27.131",
+      "modernArea": "20.816",
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/f04f9531d0c7f060edcc049c7be2bd0b.png",
+          "cap": "Unteraar Glacier (Unteraargletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 3"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_3_unteraar.png"
+  },
+  {
+    "step": "4_Gorner",
+    "state": {
+      "searchVal": "G007800E45965N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Gorner Glacier (Gornergletscher) (G007800E45965N)",
+      "warningText": "",
+      "infoText": "",
+      "netChange": "-15.718",
+      "earlierArea": "57.715",
+      "modernArea": "41.997",
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/28f91aef6db1fc01330a988e019f5e57.png",
+          "cap": "Gorner Glacier (Gornergletscher) \u2022 Multi-Temporal Boundary Overlay (1973 vs 2015) [Raster PNG, 300 D"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_4_gorner.png"
+  },
+  {
+    "step": "5_Mazia_G010725E46789N",
+    "state": {
+      "searchVal": "G010725E46789N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for Mazia / Matscher Glacier (Vedretta di Mazia) (G010725E46789N)",
+      "warningText": "",
+      "infoText": "",
+      "netChange": "-0.184",
+      "earlierArea": "2.493",
+      "modernArea": "2.310",
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/e5c1abb8dbd9adafc0a613964b08c9ed.png",
+          "cap": "Mazia / Matscher Glacier (Vedretta di Mazia) \u2022 Multi-Temporal Boundary Overlay (2000 vs 2016) [Raste"
+        },
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_5_mazia_G010725E46789N.png"
+  },
+  {
+    "step": "6_Custom_No_Map_G057419E80930N",
+    "state": {
+      "searchVal": "G057419E80930N",
+      "headingText": "2\ufe0f\u20e3 Observation Epochs & Geometry Analysis for (Ziegler Island) (G057419E80930N) (G057419E80930N)",
+      "warningText": "",
+      "infoText": "\u2139\ufe0f\n\nIndividual Geometry Visualization Note:\n\nA pre-rendered multi-temporal vector overlay graphic is not currently pre-rendered for (Ziegler Island) (G057419E80930N) (G057419E80930N).\n\n\u2022 Authoritative GLIMS Records: Earlier Analysis ID: 120555 (2004-01-19), Later Analysis ID: 525168 (2016-09-12). \u2022 Surface Accounting: Earlier Area 74.815 km\u00b2, Later Area 45.315 km\u00b2, Net Loss 29.500 km\u00b2 (-39.43%) are verified directly from validated GLIMS geometries.",
+      "netChange": "-29.500",
+      "earlierArea": "74.815",
+      "modernArea": "45.315",
+      "imgCaptions": [
+        {
+          "src": "http://localhost:8501/media/6497d2e051cbb144b8f4adc1435ab5cd.png",
+          "cap": ""
+        }
+      ]
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_6_custom_no_map_G057419E80930N.png"
+  },
+  {
+    "step": "7_Invalid_Query",
+    "state": {
+      "searchVal": "INVALID_GLACIER_XYZ",
+      "headingText": "",
+      "warningText": "\u26a0\ufe0f\n\nGlacier query 'INVALID_GLACIER_XYZ' was not found in the validated GLIMS multi-temporal database (81,598 repeated basins).",
+      "infoText": "",
+      "netChange": "",
+      "earlierArea": "",
+      "modernArea": "",
+      "imgCaptions": []
+    },
+    "screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\custom_test_7_invalid_query.png"
+  }
+]

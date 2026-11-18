@@ -1,0 +1,84 @@
+{
+  "objective": "Objective 5: Comparison of Handcrafted CLIP Prompts and Learnable CoOp Prompts",
+  "model_architecture": "Pretrained CLIP ViT-B-32 (OpenAI weights)",
+  "visual_encoder": "VisionTransformer",
+  "text_encoder": "Transformer",
+  "dataset": "DL4GAM Alps",
+  "glacier_presence_threshold": {
+    "glacier_present_class_1": "mask_crt_g >= 0.10 (at least 10% ice coverage)",
+    "non_glacier_class_0": "mask_crt_g < 0.02 (less than 2% ice coverage)"
+  },
+  "handcrafted_prompts": {
+    "non_glacier": [
+      "a satellite photo of exposed alpine bedrock and rock terrain",
+      "a satellite photo of snow-free mountain ground without glaciers",
+      "a satellite photo of rocky alpine mountain terrain"
+    ],
+    "glacier": [
+      "a satellite photo of clean glacier ice and crevasses",
+      "a satellite photo of a mountain glacier in the Alps",
+      "a satellite photo of blue glacier ice and snowfields"
+    ]
+  },
+  "coop_configuration": {
+    "n_ctx_tokens": 16,
+    "ctx_dim": 512,
+    "trainable_parameters": 8192,
+    "backbone_parameters": 151277313,
+    "backbone_frozen": true,
+    "context_mode": "Unified / Shared Context",
+    "classnames": [
+      "mountain bedrock",
+      "glacier ice"
+    ],
+    "training_samples": 32,
+    "epochs": 15,
+    "optimizer": "AdamW (lr=0.002, weight_decay=1e-4)"
+  },
+  "test_evaluation": {
+    "test_samples_total": 100,
+    "positive_class": "Glacier Ice (Class 1)",
+    "negative_class": "Mountain Bedrock (Class 0)",
+    "handcrafted_clip": {
+      "accuracy": 0.68,
+      "precision": 0.625,
+      "recall": 0.9,
+      "specificity": 0.46,
+      "f1": 0.7377049180327869,
+      "balanced_accuracy": 0.68,
+      "tp": 45,
+      "fp": 27,
+      "fn": 5,
+      "tn": 23,
+      "total": 100
+    },
+    "learnable_coop": {
+      "accuracy": 0.77,
+      "precision": 0.7647058823529411,
+      "recall": 0.78,
+      "specificity": 0.76,
+      "f1": 0.7722772277227723,
+      "balanced_accuracy": 0.77,
+      "tp": 39,
+      "fp": 12,
+      "fn": 11,
+      "tn": 38,
+      "total": 100
+    },
+    "deltas": {
+      "accuracy_gain": 0.09,
+      "precision_gain": 0.13970588235294112,
+      "recall_change": -0.12,
+      "specificity_gain": 0.30,
+      "f1_improvement": 0.03457230969998544,
+      "fp_reduction_count": 15,
+      "fp_reduction_pct": 55.55555555555556,
+      "fn_increase_count": 6
+    }
+  },
+  "artifacts": {
+    "checkpoint": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\checkpoints\\coop_prompt_best.pt",
+    "figure": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\figures\\clip_vs_coop_comparison.png",
+    "predictions_csv": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\results\\objective5_per_sample_predictions.csv"
+  }
+}

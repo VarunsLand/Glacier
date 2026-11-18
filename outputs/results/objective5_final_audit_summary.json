@@ -1,0 +1,95 @@
+{
+  "dataset_audit": {
+    "train_samples": 32,
+    "test_samples": 100,
+    "patch_overlap": 0,
+    "glacier_id_overlap": 0,
+    "train_glacier_ids": 30,
+    "test_glacier_ids": 91
+  },
+  "model_architecture": {
+    "backbone": "OpenAI CLIP ViT-B-32",
+    "coop_context_tokens": 16,
+    "coop_trainable_params": 8192,
+    "clip_backbone_trainable_params": 0,
+    "backbone_frozen": true,
+    "context_configuration": "Unified / Shared Context (16 tokens shared across classes)"
+  },
+  "metrics": {
+    "clip": {
+      "name": "Zero-Shot CLIP",
+      "TP": 45,
+      "FP": 27,
+      "FN": 5,
+      "TN": 23,
+      "Total": 100,
+      "Accuracy": 0.68,
+      "Precision": 0.625,
+      "Recall": 0.9,
+      "Specificity": 0.46,
+      "F1": 0.7377049180327869,
+      "Balanced_Accuracy": 0.68
+    },
+    "coop": {
+      "name": "Learnable CoOp",
+      "TP": 39,
+      "FP": 12,
+      "FN": 11,
+      "TN": 38,
+      "Total": 100,
+      "Accuracy": 0.77,
+      "Precision": 0.7647058823529411,
+      "Recall": 0.78,
+      "Specificity": 0.76,
+      "F1": 0.7722772277227723,
+      "Balanced_Accuracy": 0.77
+    },
+    "deltas": {
+      "accuracy": 0.09,
+      "precision": 0.1397,
+      "recall": -0.12,
+      "f1": 0.0346,
+      "fp_reduction_pct": 55.56
+    }
+  },
+  "audit_metadata": {
+    "protocol": "GlacierVision Objective 5 Final Scientific Audit",
+    "timestamp": "2026-11-16T20:16:30+05:30",
+    "status": "ACADEMIC_PRESENTATION_READY",
+    "reproducibility_verified": true
+  },
+  "dataset_split_provenance": {
+    "manifest": "datasets/dl4gam/data/map_all_splits_all_folds.csv",
+    "total_alpine_glaciers_in_map": 1593,
+    "fold_train_glaciers": 986,
+    "fold_test_glaciers": 426,
+    "fold_valid_glaciers": 181,
+    "pairwise_split_overlap": 0,
+    "held_out_test_basins_evaluated": 91,
+    "held_out_test_basin_overlap_with_train": 0,
+    "held_out_test_basin_overlap_with_valid": 0,
+    "held_out_samples_evaluated": 100,
+    "class_balance": "50 Glacier Ice (1) / 50 Mountain Bedrock (0)",
+    "duplicate_sample_count": 0
+  },
+  "live_demonstration_samples": {
+    "sample_9_bedrock": {
+      "sample_index": 9,
+      "sample_id": "g_2453/g_2453_patch_0_xc_158_yc_149.nc",
+      "ground_truth": "Mountain Bedrock (Label 0)",
+      "clip_prediction": "Mountain Bedrock (0.6634)",
+      "coop_prediction": "Mountain Bedrock (0.7027)",
+      "png_path": "outputs/objective5_live_samples/sample_009_bedrock.png"
+    },
+    "sample_1_glacier": {
+      "sample_index": 1,
+      "sample_id": "g_4368/g_4368_patch_0_xc_256_yc_256.nc",
+      "ground_truth": "Glacier Ice (Label 1)",
+      "clip_prediction": "Glacier Ice (0.8278)",
+      "coop_prediction": "Glacier Ice (0.7218)",
+      "png_path": "outputs/objective5_live_samples/sample_001_glacier.png",
+      "png_alias": "outputs/objective5_live_samples/sample_001_glacier_ice.png"
+    }
+  },
+  "split_integrity_report_path": "outputs/results/objective5_split_integrity_report.json"
+}

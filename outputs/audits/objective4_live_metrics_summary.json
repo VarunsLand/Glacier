@@ -1,0 +1,347 @@
+{
+  "Method A": {
+    "metrics": [
+      {
+        "label": "Snow/Ice Classified Pixels",
+        "val": "42,638"
+      },
+      {
+        "label": "Surface Coverage Ratio",
+        "val": "65.06%"
+      },
+      {
+        "label": "Mean Scene NDSI",
+        "val": "+0.546"
+      },
+      {
+        "label": "Min Elevation",
+        "val": "2203.8 m"
+      },
+      {
+        "label": "Max Elevation",
+        "val": "3277.7 m"
+      },
+      {
+        "label": "Total Relief",
+        "val": "1074.0 m"
+      },
+      {
+        "label": "Mean Slope",
+        "val": "24.1\u00b0"
+      },
+      {
+        "label": "TOTAL VALID PIXELS",
+        "val": "65,536"
+      },
+      {
+        "label": "DETECTED CHANGED PIXELS",
+        "val": "54,789"
+      },
+      {
+        "label": "SURFACE CHANGE RATIO",
+        "val": "83.60%"
+      },
+      {
+        "label": "ESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT",
+        "val": "49.310 km\u00b2"
+      },
+      {
+        "label": "PRECISION (PPV)",
+        "val": "0.0483"
+      },
+      {
+        "label": "RECALL (SENSITIVITY)",
+        "val": "0.3899"
+      },
+      {
+        "label": "SPECIFICITY (TNR)",
+        "val": "0.1124"
+      },
+      {
+        "label": "INTERSECTION OVER UNION (IOU)",
+        "val": "0.0449"
+      },
+      {
+        "label": "DICE SCORE (F1)",
+        "val": "0.0860"
+      }
+    ],
+    "matrixStr": "Skip to main content\n\u2744\ufe0f GlacierVision\n\nCryosphere AI & Satellite Monitoring\n\nNAVIGATION MENU\n\n\ud83c\udfe0 Home\n\n\ud83d\udd2c Interactive Segmentation Lab\n\n\ud83d\uddfa\ufe0f Glacier Retreat Explorer\n\n\ud83d\udcca Area Assessment Workspace\n\n\ud83d\udef0\ufe0f Visual Monitoring Suite\n\n\ud83e\udde0 CLIP vs CoOp Lab\n\n\ud83d\udcda Research Results Center\n\n\ud83d\udcd6 Datasets & Methodology\n\nHardware & Engine:\n\u2022 Device: CUDA (NVIDIA GeForce RTX 3050 6GB Laptop GPU)\n\u2022 PyTorch: 2.14.1+cu130 (CUDA 13.0)\n\u2022 Sentinel-2 Split: DL4GAM split_1 (Alps)\n\u2022 Validated Basins: 81,598 GLIMS pairs\n\u2022 Active Models: U-Net, ProtoNet, CoOp\n\nGlacierVision v2.0 \u2022 University Capstone Research\n\nDeploy\nOBJECTIVE 4 \u2022 VISUAL MONITORING\nInteractive Multi-Sensor Visual Glacier Monitoring Workspace\n\nSentinel-2 MSI Multispectral Analysis, Landsat-8 Bitemporal Change Detection & GLIMS Vector Overlays\n\n\ud83d\udef0\ufe0f Multi-Sensor Scientific Monitoring Laboratory \n\nSelect between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellite imagery for dynamic multispectral indices, bitemporal difference mapping, and topographic modeling.\n\nSelect Operating Mode:\n\n\ud83d\udcc2 Mode A \u2014 Explore Existing Research Datasets\n\n\ud83d\udce4 Mode B \u2014 Upload Your Own Satellite Imagery\n\n\ud83d\udef0\ufe0f Sentinel-2 Multispectral Explorer\n\n\ud83d\udef0\ufe0f Landsat Bitemporal Change Explorer\n\n\ud83d\uddfa\ufe0f GLIMS Boundary Overlay & Geospatial Integration\n\n\ud83c\udf10 Archival Publication Figures (Reference Record)\n\n\ud83d\udef0\ufe0f Landsat-8 Polar Bitemporal Surface Change Suite\n\nUndirected bitemporal surface change detection across multi-year polar cryosphere observations (30m spatial resolution):\n\nChoose Polar Bitemporal Observation Triplet:\n\nRegion: Greenland Cryosphere (64\u00b0\u201366\u00b0N)\n\nSpatial GSD: 30m | Dimensions: 256\u00d7256 px\n\nSelected Sample ID: 1_10_1 \u00a0|\u00a0 Region: Southeastern Coast of Greenland \u00a0|\u00a0 Method: Deterministic Radiometric Differencing Heuristic [Threshold-based Heuristic, Not AI] \u00a0|\u00a0 Spatial Resolution: Documented 30m Ground Sampling Distance (GSD) \u00a0|\u00a0 Dimensions: 256 \u00d7 256 px\n\nSelect Change Detection Algorithm:\n\nDeterministic Threshold (Method A):\n\n35.00\n\n5.00\n\n100.00\n\n\ud83d\udd0d 6-Panel Bitemporal Surface Change Suite\n\nEarlier observation (Epoch A)\n\nLater observation (Epoch B)\n\nMean absolute RGB difference |mean(|B \u2212 A|)|\n\nMethod A \u2014 Baseline Mean RGB Change Mask (T \u2265 35)\n\nGround-truth reference mask\n\nCombined prediction overlay\n\n\ud83d\udfe9 True Positive (TP): Correct Change\n\ud83d\udfe5 False Positive (FP): Spectral Deviation\n\ud83d\udfe7 False Negative (FN): Missed Change\n\u2b1b True Negative (TN): Static Background\n\nTOTAL VALID PIXELS\n\n65,536\n\nDETECTED CHANGED PIXELS\n\n54,789\n\nSURFACE CHANGE RATIO\n\n83.60%\n\nESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT\n\n49.310 km\u00b2\n\n\u2139\ufe0f Area Calculation & Scientific Terminology: The 49.310 km\u00b2 figure represents estimated detected pixel-change footprint, calculated assuming the documented nominal 30m ground sampling distance (0.0009 km\u00b2 per pixel) is applicable. This binary mask captures undirected multi-spectral surface alterations, not directional glacier retreat or advance.\n\n\u26a0\ufe0f Scientific Disclaimer: Undirected Surface Change vs Cryospheric Retreat\n\n1. Undirected Surface Change: The calculated binary change mask highlights undirected multi-spectral surface alterations between the two acquisition epochs. Spectral deviations are driven by seasonal snowpack depletion, debris redistribution, meltwater pond formation, and terminus displacement. An undirected spectral difference mask does not establish directional retreat versus advance without verified georeferenced glacier outline tracking.\n2. Deterministic Heuristic (Not AI): The pixel subtraction method (|\u0394I| \u2265 threshold) is a deterministic intensity differencing heuristic, not an AI or trained deep learning segmentation model.\n3. Photometric & Atmospheric Offsets: Multi-year Landsat images acquired under differing solar zenith angles and seasonal dates exhibit baseline radiometric shifts (often 30\u201350 DN shifts across entire tiles). Subtraction of uncalibrated digital numbers causes high false-positive rates on dimly lit scenes.\n4. Geospatial Metadata Limitation: The 256\u00d7256 PNG tiles are derived from co-registered parent Landsat-8 granules (Shi et al., 2025), but the PNG files lack embedded geospatial headers or GIS world files. Independent geographic verification cannot be performed from the image files alone.\n\nkeyboard_arrow_down\n\n\ud83d\udcca Ground-Truth Reference Comparison & Confusion Matrix Evaluation\n\nComparing Method A: Baseline Mean RGB (|\u0394I| \u2265 35) against ground-truth reference annotations for sample 1_10_1 at threshold T \u2265 35:\n\nMethod A \u2014 Baseline Mean RGB Change Mask (T \u2265 35)\n\nGround-truth reference mask\n\nPRECISION (PPV)\n\n0.0483\n\nRECALL (SENSITIVITY)\n\n0.3899\n\nSPECIFICITY (TNR)\n\n0.1124\n\nINTERSECTION OVER UNION (IOU)\n\n0.0449\n\nDICE SCORE (F1)\n\n0.0860\n\nIndependent Confusion Matrix:\n\u2022 True Positives (TP): 2,649 pixels (4.04%) \u00a0\u00a0|\u00a0\u00a0 \u2022 False Positives (FP): 52,140 pixels (79.56%)\n\u2022 False Negatives (FN): 4,145 pixels (6.32%) \u00a0\u00a0|\u00a0\u00a0 \u2022 True Negatives (TN): 6,602 pixels (10.07%)\nTotal Valid Evaluated Pixels: 65,536\n\nScientific Analysis \u2014 Method A:\nMethod A (Baseline Mean RGB Differencing): Subtracts raw digital numbers across RGB channels (|\u0394I| \u2265 35) without illumination compensation. Multi-year Landsat images acquired under differing solar zenith angles suffer from scene-wide darkening (on sample 1_10_1, \u0394\u012a \u2248 \u221236.49 DN). This baseline shift forces 83.60% of the scene into the changed category, producing 52,140 false positives and a low precision of 0.0483 (IoU = 0.0449, Dice = 0.0860).\n\n\ud83d\udcbe High-Resolution Exports & Reproducibility Data\n\n\ud83d\udce5 Change Mask (PNG)\n\n\ud83d\udce5 Confusion Overlay (PNG)\n\n\ud83d\udce5 Sample Metrics (CSV)\n\n\ud83d\udce5 Method Comparison (CSV)"
+  },
+  "Method B": {
+    "metrics": [
+      {
+        "label": "Snow/Ice Classified Pixels",
+        "val": "42,638"
+      },
+      {
+        "label": "Surface Coverage Ratio",
+        "val": "65.06%"
+      },
+      {
+        "label": "Mean Scene NDSI",
+        "val": "+0.546"
+      },
+      {
+        "label": "Min Elevation",
+        "val": "2203.8 m"
+      },
+      {
+        "label": "Max Elevation",
+        "val": "3277.7 m"
+      },
+      {
+        "label": "Total Relief",
+        "val": "1074.0 m"
+      },
+      {
+        "label": "Mean Slope",
+        "val": "24.1\u00b0"
+      },
+      {
+        "label": "TOTAL VALID PIXELS",
+        "val": "65,536"
+      },
+      {
+        "label": "DETECTED CHANGED PIXELS",
+        "val": "55,293"
+      },
+      {
+        "label": "SURFACE CHANGE RATIO",
+        "val": "84.37%"
+      },
+      {
+        "label": "ESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT",
+        "val": "49.764 km\u00b2"
+      },
+      {
+        "label": "PRECISION (PPV)",
+        "val": "0.0478"
+      },
+      {
+        "label": "RECALL (SENSITIVITY)",
+        "val": "0.3887"
+      },
+      {
+        "label": "SPECIFICITY (TNR)",
+        "val": "0.1037"
+      },
+      {
+        "label": "INTERSECTION OVER UNION (IOU)",
+        "val": "0.0444"
+      },
+      {
+        "label": "DICE SCORE (F1)",
+        "val": "0.0851"
+      }
+    ],
+    "matrixStr": "Skip to main content\n\u2744\ufe0f GlacierVision\n\nCryosphere AI & Satellite Monitoring\n\nNAVIGATION MENU\n\n\ud83c\udfe0 Home\n\n\ud83d\udd2c Interactive Segmentation Lab\n\n\ud83d\uddfa\ufe0f Glacier Retreat Explorer\n\n\ud83d\udcca Area Assessment Workspace\n\n\ud83d\udef0\ufe0f Visual Monitoring Suite\n\n\ud83e\udde0 CLIP vs CoOp Lab\n\n\ud83d\udcda Research Results Center\n\n\ud83d\udcd6 Datasets & Methodology\n\nHardware & Engine:\n\u2022 Device: CUDA (NVIDIA GeForce RTX 3050 6GB Laptop GPU)\n\u2022 PyTorch: 2.14.1+cu130 (CUDA 13.0)\n\u2022 Sentinel-2 Split: DL4GAM split_1 (Alps)\n\u2022 Validated Basins: 81,598 GLIMS pairs\n\u2022 Active Models: U-Net, ProtoNet, CoOp\n\nGlacierVision v2.0 \u2022 University Capstone Research\n\nDeploy\nOBJECTIVE 4 \u2022 VISUAL MONITORING\nInteractive Multi-Sensor Visual Glacier Monitoring Workspace\n\nSentinel-2 MSI Multispectral Analysis, Landsat-8 Bitemporal Change Detection & GLIMS Vector Overlays\n\n\ud83d\udef0\ufe0f Multi-Sensor Scientific Monitoring Laboratory \n\nSelect between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellite imagery for dynamic multispectral indices, bitemporal difference mapping, and topographic modeling.\n\nSelect Operating Mode:\n\n\ud83d\udcc2 Mode A \u2014 Explore Existing Research Datasets\n\n\ud83d\udce4 Mode B \u2014 Upload Your Own Satellite Imagery\n\n\ud83d\udef0\ufe0f Sentinel-2 Multispectral Explorer\n\n\ud83d\udef0\ufe0f Landsat Bitemporal Change Explorer\n\n\ud83d\uddfa\ufe0f GLIMS Boundary Overlay & Geospatial Integration\n\n\ud83c\udf10 Archival Publication Figures (Reference Record)\n\n\ud83d\udef0\ufe0f Landsat-8 Polar Bitemporal Surface Change Suite\n\nUndirected bitemporal surface change detection across multi-year polar cryosphere observations (30m spatial resolution):\n\nChoose Polar Bitemporal Observation Triplet:\n\nRegion: Greenland Cryosphere (64\u00b0\u201366\u00b0N)\n\nSpatial GSD: 30m | Dimensions: 256\u00d7256 px\n\nSelected Sample ID: 1_10_1 \u00a0|\u00a0 Region: Southeastern Coast of Greenland \u00a0|\u00a0 Method: Deterministic Radiometric Differencing Heuristic [Threshold-based Heuristic, Not AI] \u00a0|\u00a0 Spatial Resolution: Documented 30m Ground Sampling Distance (GSD) \u00a0|\u00a0 Dimensions: 256 \u00d7 256 px\n\nSelect Change Detection Algorithm:\n\nDeterministic Threshold (Method B):\n\n35.00\n\n5.00\n\n100.00\n\n\ud83d\udd0d 6-Panel Bitemporal Surface Change Suite\n\nEarlier observation (Epoch A)\n\nLater observation (Epoch B)\n\nGrayscale luminance difference |Gray(B) \u2212 Gray(A)|\n\nMethod B \u2014 Grayscale Luminance Change Mask (T \u2265 35)\n\nGround-truth reference mask\n\nCombined prediction overlay\n\n\ud83d\udfe9 True Positive (TP): Correct Change\n\ud83d\udfe5 False Positive (FP): Spectral Deviation\n\ud83d\udfe7 False Negative (FN): Missed Change\n\u2b1b True Negative (TN): Static Background\n\nTOTAL VALID PIXELS\n\n65,536\n\nDETECTED CHANGED PIXELS\n\n55,293\n\nSURFACE CHANGE RATIO\n\n84.37%\n\nESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT\n\n49.764 km\u00b2\n\n\u2139\ufe0f Area Calculation & Scientific Terminology: The 49.764 km\u00b2 figure represents estimated detected pixel-change footprint, calculated assuming the documented nominal 30m ground sampling distance (0.0009 km\u00b2 per pixel) is applicable. This binary mask captures undirected multi-spectral surface alterations, not directional glacier retreat or advance.\n\n\u26a0\ufe0f Scientific Disclaimer: Undirected Surface Change vs Cryospheric Retreat\n\n1. Undirected Surface Change: The calculated binary change mask highlights undirected multi-spectral surface alterations between the two acquisition epochs. Spectral deviations are driven by seasonal snowpack depletion, debris redistribution, meltwater pond formation, and terminus displacement. An undirected spectral difference mask does not establish directional retreat versus advance without verified georeferenced glacier outline tracking.\n2. Deterministic Heuristic (Not AI): The pixel subtraction method (|\u0394I| \u2265 threshold) is a deterministic intensity differencing heuristic, not an AI or trained deep learning segmentation model.\n3. Photometric & Atmospheric Offsets: Multi-year Landsat images acquired under differing solar zenith angles and seasonal dates exhibit baseline radiometric shifts (often 30\u201350 DN shifts across entire tiles). Subtraction of uncalibrated digital numbers causes high false-positive rates on dimly lit scenes.\n4. Geospatial Metadata Limitation: The 256\u00d7256 PNG tiles are derived from co-registered parent Landsat-8 granules (Shi et al., 2025), but the PNG files lack embedded geospatial headers or GIS world files. Independent geographic verification cannot be performed from the image files alone.\n\nkeyboard_arrow_down\n\n\ud83d\udcca Ground-Truth Reference Comparison & Confusion Matrix Evaluation\n\nComparing Method B: Grayscale Difference against ground-truth reference annotations for sample 1_10_1 at threshold T \u2265 35:\n\nMethod B \u2014 Grayscale Luminance Change Mask (T \u2265 35)\n\nGround-truth reference mask\n\nPRECISION (PPV)\n\n0.0478\n\nRECALL (SENSITIVITY)\n\n0.3887\n\nSPECIFICITY (TNR)\n\n0.1037\n\nINTERSECTION OVER UNION (IOU)\n\n0.0444\n\nDICE SCORE (F1)\n\n0.0851\n\nIndependent Confusion Matrix:\n\u2022 True Positives (TP): 2,641 pixels (4.03%) \u00a0\u00a0|\u00a0\u00a0 \u2022 False Positives (FP): 52,652 pixels (80.34%)\n\u2022 False Negatives (FN): 4,153 pixels (6.34%) \u00a0\u00a0|\u00a0\u00a0 \u2022 True Negatives (TN): 6,090 pixels (9.29%)\nTotal Valid Evaluated Pixels: 65,536\n\nScientific Analysis \u2014 Method B:\nMethod B (Grayscale Luminance Differencing): Converts each observation to ITU-R BT.601 luminance (0.2989 R + 0.5870 G + 0.1140 B) before differencing (|\u0394I| \u2265 35). Because cryospheric features in polar scenes have nearly equal spectral reflectance across RGB channels, grayscale differencing correlates almost perfectly with Mean RGB (Pearson r = 0.9950, mean absolute difference = 0.55 DN). At T = 35, it flags 55,293 pixels (52,652 FP, Precision = 0.0478), confirming that channel weighting alone cannot resolve scene-wide illumination offsets.\n\n\ud83d\udcbe High-Resolution Exports & Reproducibility Data\n\n\ud83d\udce5 Change Mask (PNG)\n\n\ud83d\udce5 Confusion Overlay (PNG)\n\n\ud83d\udce5 Sample Metrics (CSV)\n\n\ud83d\udce5 Method Comparison (CSV)"
+  },
+  "Method C": {
+    "metrics": [
+      {
+        "label": "Snow/Ice Classified Pixels",
+        "val": "42,638"
+      },
+      {
+        "label": "Surface Coverage Ratio",
+        "val": "65.06%"
+      },
+      {
+        "label": "Mean Scene NDSI",
+        "val": "+0.546"
+      },
+      {
+        "label": "Min Elevation",
+        "val": "2203.8 m"
+      },
+      {
+        "label": "Max Elevation",
+        "val": "3277.7 m"
+      },
+      {
+        "label": "Total Relief",
+        "val": "1074.0 m"
+      },
+      {
+        "label": "Mean Slope",
+        "val": "24.1\u00b0"
+      },
+      {
+        "label": "TOTAL VALID PIXELS",
+        "val": "65,536"
+      },
+      {
+        "label": "DETECTED CHANGED PIXELS",
+        "val": "1,051"
+      },
+      {
+        "label": "SURFACE CHANGE RATIO",
+        "val": "1.60%"
+      },
+      {
+        "label": "ESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT",
+        "val": "0.946 km\u00b2"
+      },
+      {
+        "label": "PRECISION (PPV)",
+        "val": "0.7374"
+      },
+      {
+        "label": "RECALL (SENSITIVITY)",
+        "val": "0.1141"
+      },
+      {
+        "label": "SPECIFICITY (TNR)",
+        "val": "0.9953"
+      },
+      {
+        "label": "INTERSECTION OVER UNION (IOU)",
+        "val": "0.1096"
+      },
+      {
+        "label": "DICE SCORE (F1)",
+        "val": "0.1976"
+      }
+    ],
+    "matrixStr": "Skip to main content\n\u2744\ufe0f GlacierVision\n\nCryosphere AI & Satellite Monitoring\n\nNAVIGATION MENU\n\n\ud83c\udfe0 Home\n\n\ud83d\udd2c Interactive Segmentation Lab\n\n\ud83d\uddfa\ufe0f Glacier Retreat Explorer\n\n\ud83d\udcca Area Assessment Workspace\n\n\ud83d\udef0\ufe0f Visual Monitoring Suite\n\n\ud83e\udde0 CLIP vs CoOp Lab\n\n\ud83d\udcda Research Results Center\n\n\ud83d\udcd6 Datasets & Methodology\n\nHardware & Engine:\n\u2022 Device: CUDA (NVIDIA GeForce RTX 3050 6GB Laptop GPU)\n\u2022 PyTorch: 2.14.1+cu130 (CUDA 13.0)\n\u2022 Sentinel-2 Split: DL4GAM split_1 (Alps)\n\u2022 Validated Basins: 81,598 GLIMS pairs\n\u2022 Active Models: U-Net, ProtoNet, CoOp\n\nGlacierVision v2.0 \u2022 University Capstone Research\n\nDeploy\nOBJECTIVE 4 \u2022 VISUAL MONITORING\nInteractive Multi-Sensor Visual Glacier Monitoring Workspace\n\nSentinel-2 MSI Multispectral Analysis, Landsat-8 Bitemporal Change Detection & GLIMS Vector Overlays\n\n\ud83d\udef0\ufe0f Multi-Sensor Scientific Monitoring Laboratory \n\nSelect between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellite imagery for dynamic multispectral indices, bitemporal difference mapping, and topographic modeling.\n\nSelect Operating Mode:\n\n\ud83d\udcc2 Mode A \u2014 Explore Existing Research Datasets\n\n\ud83d\udce4 Mode B \u2014 Upload Your Own Satellite Imagery\n\n\ud83d\udef0\ufe0f Sentinel-2 Multispectral Explorer\n\n\ud83d\udef0\ufe0f Landsat Bitemporal Change Explorer\n\n\ud83d\uddfa\ufe0f GLIMS Boundary Overlay & Geospatial Integration\n\n\ud83c\udf10 Archival Publication Figures (Reference Record)\n\n\ud83d\udef0\ufe0f Landsat-8 Polar Bitemporal Surface Change Suite\n\nUndirected bitemporal surface change detection across multi-year polar cryosphere observations (30m spatial resolution):\n\nChoose Polar Bitemporal Observation Triplet:\n\nRegion: Greenland Cryosphere (64\u00b0\u201366\u00b0N)\n\nSpatial GSD: 30m | Dimensions: 256\u00d7256 px\n\nSelected Sample ID: 1_10_1 \u00a0|\u00a0 Region: Southeastern Coast of Greenland \u00a0|\u00a0 Method: Deterministic Radiometric Differencing Heuristic [Threshold-based Heuristic, Not AI] \u00a0|\u00a0 Spatial Resolution: Documented 30m Ground Sampling Distance (GSD) \u00a0|\u00a0 Dimensions: 256 \u00d7 256 px\n\nSelect Change Detection Algorithm:\n\nDeterministic Threshold (Method C):\n\n60.00\n\n5.00\n\n100.00\n\n\ud83d\udd0d 6-Panel Bitemporal Surface Change Suite\n\nEarlier observation (Epoch A)\n\nLater observation (Epoch B)\n\nMean absolute RGB difference |mean(|B \u2212 A|)| (High-Threshold Calibration)\n\nMethod C \u2014 Calibrated Mean RGB Change Mask (T \u2265 60)\n\nGround-truth reference mask\n\nCombined prediction overlay\n\n\ud83d\udfe9 True Positive (TP): Correct Change\n\ud83d\udfe5 False Positive (FP): Spectral Deviation\n\ud83d\udfe7 False Negative (FN): Missed Change\n\u2b1b True Negative (TN): Static Background\n\nTOTAL VALID PIXELS\n\n65,536\n\nDETECTED CHANGED PIXELS\n\n1,051\n\nSURFACE CHANGE RATIO\n\n1.60%\n\nESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT\n\n0.946 km\u00b2\n\n\u2139\ufe0f Area Calculation & Scientific Terminology: The 0.946 km\u00b2 figure represents estimated detected pixel-change footprint, calculated assuming the documented nominal 30m ground sampling distance (0.0009 km\u00b2 per pixel) is applicable. This binary mask captures undirected multi-spectral surface alterations, not directional glacier retreat or advance.\n\n\u26a0\ufe0f Scientific Disclaimer: Undirected Surface Change vs Cryospheric Retreat\n\n1. Undirected Surface Change: The calculated binary change mask highlights undirected multi-spectral surface alterations between the two acquisition epochs. Spectral deviations are driven by seasonal snowpack depletion, debris redistribution, meltwater pond formation, and terminus displacement. An undirected spectral difference mask does not establish directional retreat versus advance without verified georeferenced glacier outline tracking.\n2. Deterministic Heuristic (Not AI): The pixel subtraction method (|\u0394I| \u2265 threshold) is a deterministic intensity differencing heuristic, not an AI or trained deep learning segmentation model.\n3. Photometric & Atmospheric Offsets: Multi-year Landsat images acquired under differing solar zenith angles and seasonal dates exhibit baseline radiometric shifts (often 30\u201350 DN shifts across entire tiles). Subtraction of uncalibrated digital numbers causes high false-positive rates on dimly lit scenes.\n4. Geospatial Metadata Limitation: The 256\u00d7256 PNG tiles are derived from co-registered parent Landsat-8 granules (Shi et al., 2025), but the PNG files lack embedded geospatial headers or GIS world files. Independent geographic verification cannot be performed from the image files alone.\n\nkeyboard_arrow_down\n\n\ud83d\udcca Ground-Truth Reference Comparison & Confusion Matrix Evaluation\n\nComparing Method C: Calibrated Mean RGB Difference against ground-truth reference annotations for sample 1_10_1 at threshold T \u2265 60:\n\nMethod C \u2014 Calibrated Mean RGB Change Mask (T \u2265 60)\n\nGround-truth reference mask\n\nPRECISION (PPV)\n\n0.7374\n\nRECALL (SENSITIVITY)\n\n0.1141\n\nSPECIFICITY (TNR)\n\n0.9953\n\nINTERSECTION OVER UNION (IOU)\n\n0.1096\n\nDICE SCORE (F1)\n\n0.1976\n\nIndependent Confusion Matrix:\n\u2022 True Positives (TP): 775 pixels (1.18%) \u00a0\u00a0|\u00a0\u00a0 \u2022 False Positives (FP): 276 pixels (0.42%)\n\u2022 False Negatives (FN): 6,019 pixels (9.18%) \u00a0\u00a0|\u00a0\u00a0 \u2022 True Negatives (TN): 58,466 pixels (89.21%)\nTotal Valid Evaluated Pixels: 65,536\n\nScientific Analysis \u2014 Method C:\nMethod C (Calibrated Mean RGB Differencing): Employs the identical differencing formula as Method A, but raises the threshold to T = 60 to filter out the ~36.5 DN illumination darkening shift. Its predicted change mask is a strict subset of Method A (1,051 pixels vs 54,789 pixels). This threshold calibration successfully suppresses false positives by 99.47% (FP drops from 52,140 to 276) and boosts precision to 0.7374 (IoU = 0.1096, Dice = 0.1976), though recall decreases to 0.1141 as subtle true changes fall below the conservative threshold.\n\n\ud83d\udcbe High-Resolution Exports & Reproducibility Data\n\n\ud83d\udce5 Change Mask (PNG)\n\n\ud83d\udce5 Confusion Overlay (PNG)\n\n\ud83d\udce5 Sample Metrics (CSV)\n\n\ud83d\udce5 Method Comparison (CSV)"
+  },
+  "Method D": {
+    "metrics": [
+      {
+        "label": "Snow/Ice Classified Pixels",
+        "val": "42,638"
+      },
+      {
+        "label": "Surface Coverage Ratio",
+        "val": "65.06%"
+      },
+      {
+        "label": "Mean Scene NDSI",
+        "val": "+0.546"
+      },
+      {
+        "label": "Min Elevation",
+        "val": "2203.8 m"
+      },
+      {
+        "label": "Max Elevation",
+        "val": "3277.7 m"
+      },
+      {
+        "label": "Total Relief",
+        "val": "1074.0 m"
+      },
+      {
+        "label": "Mean Slope",
+        "val": "24.1\u00b0"
+      },
+      {
+        "label": "TOTAL VALID PIXELS",
+        "val": "65,536"
+      },
+      {
+        "label": "DETECTED CHANGED PIXELS",
+        "val": "2,008"
+      },
+      {
+        "label": "SURFACE CHANGE RATIO",
+        "val": "3.06%"
+      },
+      {
+        "label": "ESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT",
+        "val": "1.807 km\u00b2"
+      },
+      {
+        "label": "PRECISION (PPV)",
+        "val": "0.5722"
+      },
+      {
+        "label": "RECALL (SENSITIVITY)",
+        "val": "0.1691"
+      },
+      {
+        "label": "SPECIFICITY (TNR)",
+        "val": "0.9854"
+      },
+      {
+        "label": "INTERSECTION OVER UNION (IOU)",
+        "val": "0.1501"
+      },
+      {
+        "label": "DICE SCORE (F1)",
+        "val": "0.2611"
+      }
+    ],
+    "matrixStr": "Skip to main content\n\u2744\ufe0f GlacierVision\n\nCryosphere AI & Satellite Monitoring\n\nNAVIGATION MENU\n\n\ud83c\udfe0 Home\n\n\ud83d\udd2c Interactive Segmentation Lab\n\n\ud83d\uddfa\ufe0f Glacier Retreat Explorer\n\n\ud83d\udcca Area Assessment Workspace\n\n\ud83d\udef0\ufe0f Visual Monitoring Suite\n\n\ud83e\udde0 CLIP vs CoOp Lab\n\n\ud83d\udcda Research Results Center\n\n\ud83d\udcd6 Datasets & Methodology\n\nHardware & Engine:\n\u2022 Device: CUDA (NVIDIA GeForce RTX 3050 6GB Laptop GPU)\n\u2022 PyTorch: 2.14.1+cu130 (CUDA 13.0)\n\u2022 Sentinel-2 Split: DL4GAM split_1 (Alps)\n\u2022 Validated Basins: 81,598 GLIMS pairs\n\u2022 Active Models: U-Net, ProtoNet, CoOp\n\nGlacierVision v2.0 \u2022 University Capstone Research\n\nDeploy\nOBJECTIVE 4 \u2022 VISUAL MONITORING\nInteractive Multi-Sensor Visual Glacier Monitoring Workspace\n\nSentinel-2 MSI Multispectral Analysis, Landsat-8 Bitemporal Change Detection & GLIMS Vector Overlays\n\n\ud83d\udef0\ufe0f Multi-Sensor Scientific Monitoring Laboratory \n\nSelect between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellite imagery for dynamic multispectral indices, bitemporal difference mapping, and topographic modeling.\n\nSelect Operating Mode:\n\n\ud83d\udcc2 Mode A \u2014 Explore Existing Research Datasets\n\n\ud83d\udce4 Mode B \u2014 Upload Your Own Satellite Imagery\n\n\ud83d\udef0\ufe0f Sentinel-2 Multispectral Explorer\n\n\ud83d\udef0\ufe0f Landsat Bitemporal Change Explorer\n\n\ud83d\uddfa\ufe0f GLIMS Boundary Overlay & Geospatial Integration\n\n\ud83c\udf10 Archival Publication Figures (Reference Record)\n\n\ud83d\udef0\ufe0f Landsat-8 Polar Bitemporal Surface Change Suite\n\nUndirected bitemporal surface change detection across multi-year polar cryosphere observations (30m spatial resolution):\n\nChoose Polar Bitemporal Observation Triplet:\n\nRegion: Greenland Cryosphere (64\u00b0\u201366\u00b0N)\n\nSpatial GSD: 30m | Dimensions: 256\u00d7256 px\n\nSelected Sample ID: 1_10_1 \u00a0|\u00a0 Region: Southeastern Coast of Greenland \u00a0|\u00a0 Method: Deterministic Radiometric Differencing Heuristic [Threshold-based Heuristic, Not AI] \u00a0|\u00a0 Spatial Resolution: Documented 30m Ground Sampling Distance (GSD) \u00a0|\u00a0 Dimensions: 256 \u00d7 256 px\n\nSelect Change Detection Algorithm:\n\nDeterministic Threshold (Method D):\n\n90.00\n\n10.00\n\n180.00\n\n\ud83d\udd0d 6-Panel Bitemporal Surface Change Suite\n\nEarlier observation (Epoch A)\n\nLater observation (Epoch B)\n\nEuclidean RGB distance \u221a(\u0394R\u00b2 + \u0394G\u00b2 + \u0394B\u00b2)\n\nMethod D \u2014 Euclidean RGB Distance Change Mask (T \u2265 90)\n\nGround-truth reference mask\n\nCombined prediction overlay\n\n\ud83d\udfe9 True Positive (TP): Correct Change\n\ud83d\udfe5 False Positive (FP): Spectral Deviation\n\ud83d\udfe7 False Negative (FN): Missed Change\n\u2b1b True Negative (TN): Static Background\n\nTOTAL VALID PIXELS\n\n65,536\n\nDETECTED CHANGED PIXELS\n\n2,008\n\nSURFACE CHANGE RATIO\n\n3.06%\n\nESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT\n\n1.807 km\u00b2\n\n\u2139\ufe0f Area Calculation & Scientific Terminology: The 1.807 km\u00b2 figure represents estimated detected pixel-change footprint, calculated assuming the documented nominal 30m ground sampling distance (0.0009 km\u00b2 per pixel) is applicable. This binary mask captures undirected multi-spectral surface alterations, not directional glacier retreat or advance.\n\n\u26a0\ufe0f Scientific Disclaimer: Undirected Surface Change vs Cryospheric Retreat\n\n1. Undirected Surface Change: The calculated binary change mask highlights undirected multi-spectral surface alterations between the two acquisition epochs. Spectral deviations are driven by seasonal snowpack depletion, debris redistribution, meltwater pond formation, and terminus displacement. An undirected spectral difference mask does not establish directional retreat versus advance without verified georeferenced glacier outline tracking.\n2. Deterministic Heuristic (Not AI): The pixel subtraction method (|\u0394I| \u2265 threshold) is a deterministic intensity differencing heuristic, not an AI or trained deep learning segmentation model.\n3. Photometric & Atmospheric Offsets: Multi-year Landsat images acquired under differing solar zenith angles and seasonal dates exhibit baseline radiometric shifts (often 30\u201350 DN shifts across entire tiles). Subtraction of uncalibrated digital numbers causes high false-positive rates on dimly lit scenes.\n4. Geospatial Metadata Limitation: The 256\u00d7256 PNG tiles are derived from co-registered parent Landsat-8 granules (Shi et al., 2025), but the PNG files lack embedded geospatial headers or GIS world files. Independent geographic verification cannot be performed from the image files alone.\n\nkeyboard_arrow_down\n\n\ud83d\udcca Ground-Truth Reference Comparison & Confusion Matrix Evaluation\n\nComparing Method D: Euclidean RGB Distance against ground-truth reference annotations for sample 1_10_1 at threshold T \u2265 90:\n\nMethod D \u2014 Euclidean RGB Distance Change Mask (T \u2265 90)\n\nGround-truth reference mask\n\nPRECISION (PPV)\n\n0.5722\n\nRECALL (SENSITIVITY)\n\n0.1691\n\nSPECIFICITY (TNR)\n\n0.9854\n\nINTERSECTION OVER UNION (IOU)\n\n0.1501\n\nDICE SCORE (F1)\n\n0.2611\n\nIndependent Confusion Matrix:\n\u2022 True Positives (TP): 1,149 pixels (1.75%) \u00a0\u00a0|\u00a0\u00a0 \u2022 False Positives (FP): 859 pixels (1.31%)\n\u2022 False Negatives (FN): 5,645 pixels (8.61%) \u00a0\u00a0|\u00a0\u00a0 \u2022 True Negatives (TN): 57,883 pixels (88.32%)\nTotal Valid Evaluated Pixels: 65,536\n\nScientific Analysis \u2014 Method D:\nMethod D (Euclidean RGB Distance Differencing): Calculates 3D geometric distance in RGB color space (\u221a(\u0394R\u00b2 + \u0394G\u00b2 + \u0394B\u00b2)). Since Landsat channels are strongly correlated in polar imagery, Euclidean distance scales approximately by \u221a3 \u2248 1.732 \u00d7 Mean RGB difference (Pearson r = 0.9990). Its calibrated threshold T = 90 corresponds to an effective Mean RGB threshold of ~51.6 DN. It predicts 2,008 changed pixels, detecting 1,149 true positives and 859 false positives (Precision = 0.5722, Recall = 0.1691, Specificity = 0.9854, IoU = 0.1501, Dice = 0.2611).\n\n\ud83d\udcbe High-Resolution Exports & Reproducibility Data\n\n\ud83d\udce5 Change Mask (PNG)\n\n\ud83d\udce5 Confusion Overlay (PNG)\n\n\ud83d\udce5 Sample Metrics (CSV)\n\n\ud83d\udce5 Method Comparison (CSV)"
+  },
+  "Method E": {
+    "metrics": [
+      {
+        "label": "Snow/Ice Classified Pixels",
+        "val": "42,638"
+      },
+      {
+        "label": "Surface Coverage Ratio",
+        "val": "65.06%"
+      },
+      {
+        "label": "Mean Scene NDSI",
+        "val": "+0.546"
+      },
+      {
+        "label": "Min Elevation",
+        "val": "2203.8 m"
+      },
+      {
+        "label": "Max Elevation",
+        "val": "3277.7 m"
+      },
+      {
+        "label": "Total Relief",
+        "val": "1074.0 m"
+      },
+      {
+        "label": "Mean Slope",
+        "val": "24.1\u00b0"
+      },
+      {
+        "label": "TOTAL VALID PIXELS",
+        "val": "65,536"
+      },
+      {
+        "label": "DETECTED CHANGED PIXELS",
+        "val": "2,551"
+      },
+      {
+        "label": "SURFACE CHANGE RATIO",
+        "val": "3.89%"
+      },
+      {
+        "label": "ESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT",
+        "val": "2.296 km\u00b2"
+      },
+      {
+        "label": "PRECISION (PPV)",
+        "val": "0.9420"
+      },
+      {
+        "label": "RECALL (SENSITIVITY)",
+        "val": "0.3537"
+      },
+      {
+        "label": "SPECIFICITY (TNR)",
+        "val": "0.9975"
+      },
+      {
+        "label": "INTERSECTION OVER UNION (IOU)",
+        "val": "0.3462"
+      },
+      {
+        "label": "DICE SCORE (F1)",
+        "val": "0.5143"
+      }
+    ],
+    "matrixStr": "Skip to main content\n\u2744\ufe0f GlacierVision\n\nCryosphere AI & Satellite Monitoring\n\nNAVIGATION MENU\n\n\ud83c\udfe0 Home\n\n\ud83d\udd2c Interactive Segmentation Lab\n\n\ud83d\uddfa\ufe0f Glacier Retreat Explorer\n\n\ud83d\udcca Area Assessment Workspace\n\n\ud83d\udef0\ufe0f Visual Monitoring Suite\n\n\ud83e\udde0 CLIP vs CoOp Lab\n\n\ud83d\udcda Research Results Center\n\n\ud83d\udcd6 Datasets & Methodology\n\nHardware & Engine:\n\u2022 Device: CUDA (NVIDIA GeForce RTX 3050 6GB Laptop GPU)\n\u2022 PyTorch: 2.14.1+cu130 (CUDA 13.0)\n\u2022 Sentinel-2 Split: DL4GAM split_1 (Alps)\n\u2022 Validated Basins: 81,598 GLIMS pairs\n\u2022 Active Models: U-Net, ProtoNet, CoOp\n\nGlacierVision v2.0 \u2022 University Capstone Research\n\nDeploy\nOBJECTIVE 4 \u2022 VISUAL MONITORING\nInteractive Multi-Sensor Visual Glacier Monitoring Workspace\n\nSentinel-2 MSI Multispectral Analysis, Landsat-8 Bitemporal Change Detection & GLIMS Vector Overlays\n\n\ud83d\udef0\ufe0f Multi-Sensor Scientific Monitoring Laboratory \n\nSelect between exploring validated research datasets (2,251 Sentinel-2 NetCDF patches and 683 Landsat-8 polar triplets) or uploading your own satellite imagery for dynamic multispectral indices, bitemporal difference mapping, and topographic modeling.\n\nSelect Operating Mode:\n\n\ud83d\udcc2 Mode A \u2014 Explore Existing Research Datasets\n\n\ud83d\udce4 Mode B \u2014 Upload Your Own Satellite Imagery\n\n\ud83d\udef0\ufe0f Sentinel-2 Multispectral Explorer\n\n\ud83d\udef0\ufe0f Landsat Bitemporal Change Explorer\n\n\ud83d\uddfa\ufe0f GLIMS Boundary Overlay & Geospatial Integration\n\n\ud83c\udf10 Archival Publication Figures (Reference Record)\n\n\ud83d\udef0\ufe0f Landsat-8 Polar Bitemporal Surface Change Suite\n\nUndirected bitemporal surface change detection across multi-year polar cryosphere observations (30m spatial resolution):\n\nChoose Polar Bitemporal Observation Triplet:\n\nRegion: Greenland Cryosphere (64\u00b0\u201366\u00b0N)\n\nSpatial GSD: 30m | Dimensions: 256\u00d7256 px\n\nSelected Sample ID: 1_10_1 \u00a0|\u00a0 Region: Southeastern Coast of Greenland \u00a0|\u00a0 Method: Deterministic Radiometric Differencing Heuristic [Threshold-based Heuristic, Not AI] \u00a0|\u00a0 Spatial Resolution: Documented 30m Ground Sampling Distance (GSD) \u00a0|\u00a0 Dimensions: 256 \u00d7 256 px\n\nSelect Change Detection Algorithm:\n\nDeterministic Threshold (Method E):\n\n40.00\n\n5.00\n\n100.00\n\n\ud83d\udd0d 6-Panel Bitemporal Surface Change Suite\n\nEarlier observation (Epoch A)\n\nLater observation (Epoch B)\n\nIllumination-corrected difference |(B \u2212 \u03bc_B) \u2212 (A \u2212 \u03bc_A)|\n\nMethod E \u2014 Illumination Offset-Normalized Change Mask (T \u2265 40)\n\nGround-truth reference mask\n\nCombined prediction overlay\n\n\ud83d\udfe9 True Positive (TP): Correct Change\n\ud83d\udfe5 False Positive (FP): Spectral Deviation\n\ud83d\udfe7 False Negative (FN): Missed Change\n\u2b1b True Negative (TN): Static Background\n\nTOTAL VALID PIXELS\n\n65,536\n\nDETECTED CHANGED PIXELS\n\n2,551\n\nSURFACE CHANGE RATIO\n\n3.89%\n\nESTIMATED DETECTED PIXEL-CHANGE FOOTPRINT\n\n2.296 km\u00b2\n\n\u2139\ufe0f Area Calculation & Scientific Terminology: The 2.296 km\u00b2 figure represents estimated detected pixel-change footprint, calculated assuming the documented nominal 30m ground sampling distance (0.0009 km\u00b2 per pixel) is applicable. This binary mask captures undirected multi-spectral surface alterations, not directional glacier retreat or advance.\n\n\u26a0\ufe0f Scientific Disclaimer: Undirected Surface Change vs Cryospheric Retreat\n\n1. Undirected Surface Change: The calculated binary change mask highlights undirected multi-spectral surface alterations between the two acquisition epochs. Spectral deviations are driven by seasonal snowpack depletion, debris redistribution, meltwater pond formation, and terminus displacement. An undirected spectral difference mask does not establish directional retreat versus advance without verified georeferenced glacier outline tracking.\n2. Deterministic Heuristic (Not AI): The pixel subtraction method (|\u0394I| \u2265 threshold) is a deterministic intensity differencing heuristic, not an AI or trained deep learning segmentation model.\n3. Photometric & Atmospheric Offsets: Multi-year Landsat images acquired under differing solar zenith angles and seasonal dates exhibit baseline radiometric shifts (often 30\u201350 DN shifts across entire tiles). Subtraction of uncalibrated digital numbers causes high false-positive rates on dimly lit scenes.\n4. Geospatial Metadata Limitation: The 256\u00d7256 PNG tiles are derived from co-registered parent Landsat-8 granules (Shi et al., 2025), but the PNG files lack embedded geospatial headers or GIS world files. Independent geographic verification cannot be performed from the image files alone.\n\nkeyboard_arrow_down\n\n\ud83d\udcca Ground-Truth Reference Comparison & Confusion Matrix Evaluation\n\nComparing Method E: Illumination Offset-Normalized Difference against ground-truth reference annotations for sample 1_10_1 at threshold T \u2265 40:\n\nMethod E \u2014 Illumination Offset-Normalized Change Mask (T \u2265 40)\n\nGround-truth reference mask\n\nPRECISION (PPV)\n\n0.9420\n\nRECALL (SENSITIVITY)\n\n0.3537\n\nSPECIFICITY (TNR)\n\n0.9975\n\nINTERSECTION OVER UNION (IOU)\n\n0.3462\n\nDICE SCORE (F1)\n\n0.5143\n\nIndependent Confusion Matrix:\n\u2022 True Positives (TP): 2,403 pixels (3.67%) \u00a0\u00a0|\u00a0\u00a0 \u2022 False Positives (FP): 148 pixels (0.23%)\n\u2022 False Negatives (FN): 4,391 pixels (6.70%) \u00a0\u00a0|\u00a0\u00a0 \u2022 True Negatives (TN): 58,594 pixels (89.41%)\nTotal Valid Evaluated Pixels: 65,536\n\nScientific Analysis \u2014 Method E:\nMethod E (Illumination Offset-Normalized Differencing): Directly compensates for the multi-year atmospheric and solar elevation shift by subtracting the per-channel mean difference (\u0394R = \u221236.53, \u0394G = \u221236.17, \u0394B = \u221236.76 DN) prior to differencing (|\u0394I| \u2265 40). This centers the static background near zero, collapsing false positives from 52,140 down to just 148 pixels (a 99.72% reduction) while preserving 2,403 true positives. Method E achieves the highest accuracy of all evaluated methods: Precision = 0.9420, Specificity = 0.9975, IoU = 0.3462, and Dice = 0.5143.\n\n\ud83d\udcbe High-Resolution Exports & Reproducibility Data\n\n\ud83d\udce5 Change Mask (PNG)\n\n\ud83d\udce5 Confusion Overlay (PNG)\n\n\ud83d\udce5 Sample Metrics (CSV)\n\n\ud83d\udce5 Method Comparison (CSV)"
+  }
+}

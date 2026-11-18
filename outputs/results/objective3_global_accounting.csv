@@ -1,0 +1,7 @@
+accounting_component,glacier_pairs,unrounded_area_km2,displayed_area_km2,percentage_or_rate,mathematical_formula,magnitude_variable
+Earlier Pooled Area (A1),81598,220636.2156,220636.22,100.00%,"sum(A_1,i)",A_1
+Later Pooled Area (A2),81598,204314.45260000002,204314.45,92.60%,"sum(A_2,i)",A_2
+Pooled Pairwise Area Reductions (Shrinking Pairs),57477,27330.46900000001,27330.47,70.44% of pairs,"sum(max(0, A_1,i - A_2,i)) for A_1,i > A_2,i",Sigma L_i
+Pooled Pairwise Area Increases (Expanding Pairs),22471,11008.706000000002,11008.71,27.54% of pairs,"sum(max(0, A_2,i - A_1,i)) for A_2,i > A_1,i",Sigma G_i
+Identical Extent Pairs (Equilibrium),1650,0.0,0.0,2.02% of pairs,"A_1,i = A_2,i (Delta A_i = 0)",Delta A_i = 0
+Net Pooled Area Loss,81598,16321.762999999999,16321.76,-7.40% pooled change,"Sigma L_i - Sigma G_i = Sigma(A_1,i - A_2,i)",Net Delta A

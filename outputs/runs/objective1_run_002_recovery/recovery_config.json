@@ -1,0 +1,22 @@
+{
+  "model": "FewShotProtoNet",
+  "objective": "Objective 1: Few-Shot Glacier Segmentation (Warm Recovery)",
+  "recovery_source_run": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_001",
+  "resumed_from_epoch": 8,
+  "start_epoch": 9,
+  "target_final_epoch": 15,
+  "initial_best_val_dice": 0.4644802310167717,
+  "initial_best_epoch": 7,
+  "optimizer_status": "Warm Restart (fresh AdamW state)",
+  "k_shot": 5,
+  "q_queries": 2,
+  "episodes_per_epoch": 50,
+  "val_episodes": 15,
+  "lr": 0.001,
+  "embed_dim": 64,
+  "temperature": 20.0,
+  "patience": 4,
+  "seed": 42,
+  "mixed_precision": "FP16 (torch.amp.autocast)",
+  "timestamp_start": "2026-11-14T05:49:46.525464"
+}

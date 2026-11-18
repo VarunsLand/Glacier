@@ -1,0 +1,19 @@
+{
+  "ingestion_success": true,
+  "metadata_verified": {
+    "channels_5": true,
+    "dimensions_463x448": true,
+    "crs_epsg32632": true,
+    "resolution_20m": true,
+    "bands_b02_b11": true,
+    "scope_notice": true
+  },
+  "rgb_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\rhone_geotiff_live_upload_rgb.png",
+  "swir_rendered": true,
+  "swir_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\rhone_geotiff_live_upload_swir.png",
+  "bands_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\rhone_geotiff_live_upload_bands.png",
+  "ndsi_rendered": true,
+  "ndsi_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\rhone_geotiff_live_upload_ndsi.png",
+  "dem_unavailable_graceful": true,
+  "all_checks_passed": true
+}

@@ -1,0 +1,33 @@
+{
+  "run_id": 7,
+  "sample_alias": "glacier_test_2 (g_3246)",
+  "desktop_filename": "glacier_test_2.nc",
+  "glacier_id": "g_3246",
+  "original_path": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\datasets\\dl4gam\\extracted\\g_3246\\g_3246_patch_0_xc_256_yc_384.nc",
+  "model_name": "ProtoNet K=1",
+  "model_tag": "protonet_k1",
+  "k_shots": 1,
+  "support_glacier_ids": [
+    "g_2860"
+  ],
+  "support_unique_glacier_count": 1,
+  "query_glacier_id": "g_3246",
+  "disjoint_verified": true,
+  "split": "fold_test",
+  "glacier_presence_ratio": 0.2859039306640625,
+  "latency_ms": 6.453599999076687,
+  "metrics": {
+    "dice": 0.8049641133966718,
+    "iou": 0.673589908404036,
+    "precision": 0.731480673588373,
+    "recall": 0.8948604365688771,
+    "accuracy": 0.8760223388670538,
+    "tp": 16767,
+    "fp": 6155,
+    "fn": 1970,
+    "tn": 40644
+  },
+  "discrepancy": 0.0,
+  "verdict": "PASS",
+  "saved_npz": "run_07_g_3246_protonet_k1.npz"
+}

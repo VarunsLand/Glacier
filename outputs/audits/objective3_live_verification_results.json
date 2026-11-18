@@ -1,0 +1,186 @@
+{
+  "macro_cards": [
+    {
+      "label": "VALIDATED GLACIER PAIRS",
+      "val": "81,598",
+      "unit": "",
+      "badge": "Multi-Temporal (\u0394t \u2265 3.0 yrs)"
+    },
+    {
+      "label": "RETREATING PAIRS",
+      "val": "54,718",
+      "unit": "",
+      "badge": "\u25bc\n67.06% (\u0394% \u2264 -2.0%)"
+    },
+    {
+      "label": "ADVANCING PAIRS",
+      "val": "20,132",
+      "unit": "",
+      "badge": "\u25b2\n24.67% (\u0394% \u2265 +2.0%)"
+    },
+    {
+      "label": "STABLE PAIRS",
+      "val": "6,748",
+      "unit": "",
+      "badge": "\u25a0\n8.27% (\u00b12.0% Deadband)"
+    },
+    {
+      "label": "NET POOLED AREA LOSS",
+      "val": "16,321.76",
+      "unit": "km\u00b2",
+      "badge": "\u25bc\n-7.40% Pooled Loss"
+    }
+  ],
+  "section_headers": [
+    "1\ufe0f\u20e3 Global Glacier Area Accounting & Key Research Findings",
+    "2\ufe0f\u20e3 Area Change Scenario Calculator",
+    "3\ufe0f\u20e3 Temporal Observation-Interval Analysis",
+    "4\ufe0f\u20e3 Quality Filter Sensitivity & Invariance Analysis (12 Configurations)",
+    "5\ufe0f\u20e3 Largest Observed Pairwise Area Reductions",
+    "6\ufe0f\u20e3 Full GLIMS Record Explorer (Transparency & Data Verification)"
+  ],
+  "has_all_6_sections": true,
+  "has_key_research_findings": true,
+  "katex_elements_count": 84,
+  "raw_latex_matches": [],
+  "temporal_chart_info": null,
+  "scenario_default": [
+    {
+      "label": "NET SURFACE CHANGE",
+      "val": "-3.75",
+      "unit": "km\u00b2",
+      "badge": "\u25bc\n-15.00%"
+    },
+    {
+      "label": "NET AREA DECREASE",
+      "val": "3.75",
+      "unit": "km\u00b2",
+      "badge": "\u25bc\nNet Area Decrease"
+    },
+    {
+      "label": "ANNUALIZED RATE",
+      "val": "-0.188",
+      "unit": "km\u00b2/yr",
+      "badge": "\u25bc\n-0.75%/yr (linear)"
+    },
+    {
+      "label": "DYNAMICS CLASS",
+      "val": "Significant Measured Retreat",
+      "unit": "",
+      "badge": "\u0394% \u2264 -10.0% (Significant Retreat)"
+    }
+  ],
+  "scenario_expansion": [
+    {
+      "label": "NET SURFACE CHANGE",
+      "val": "+10.00",
+      "unit": "km\u00b2",
+      "badge": "\u25b2\n+10.00%"
+    },
+    {
+      "label": "NET AREA DECREASE",
+      "val": "0.00",
+      "unit": "km\u00b2",
+      "badge": "\u25b2\nNo net decrease \u2014 area increased"
+    },
+    {
+      "label": "ANNUALIZED RATE",
+      "val": "+1.000",
+      "unit": "km\u00b2/yr",
+      "badge": "\u25b2\n+1.00%/yr (linear)"
+    },
+    {
+      "label": "DYNAMICS CLASS",
+      "val": "Measured Advance",
+      "unit": "",
+      "badge": "\u0394% \u2265 +2.0% (Measured Advance)"
+    }
+  ],
+  "scenario_retreat": [
+    {
+      "label": "NET SURFACE CHANGE",
+      "val": "-10.00",
+      "unit": "km\u00b2",
+      "badge": "\u25bc\n-10.00%"
+    },
+    {
+      "label": "NET AREA DECREASE",
+      "val": "10.00",
+      "unit": "km\u00b2",
+      "badge": "\u25bc\nNet Area Decrease"
+    },
+    {
+      "label": "ANNUALIZED RATE",
+      "val": "-1.000",
+      "unit": "km\u00b2/yr",
+      "badge": "\u25bc\n-1.00%/yr (linear)"
+    },
+    {
+      "label": "DYNAMICS CLASS",
+      "val": "Significant Measured Retreat",
+      "unit": "",
+      "badge": "\u0394% \u2264 -10.0% (Significant Retreat)"
+    }
+  ],
+  "scenario_equilibrium": [
+    {
+      "label": "NET SURFACE CHANGE",
+      "val": "+0.00",
+      "unit": "km\u00b2",
+      "badge": "\u25a0\n+0.00%"
+    },
+    {
+      "label": "NET AREA DECREASE",
+      "val": "0.00",
+      "unit": "km\u00b2",
+      "badge": "No net change (Equilibrium)"
+    },
+    {
+      "label": "ANNUALIZED RATE",
+      "val": "+0.000",
+      "unit": "km\u00b2/yr",
+      "badge": "\u25a0\n+0.00%/yr (linear)"
+    },
+    {
+      "label": "DYNAMICS CLASS",
+      "val": "Stable / Equilibrium",
+      "unit": "",
+      "badge": "Within \u00b12.0% Deadband (Equilibrium)"
+    }
+  ],
+  "has_top10_table": true,
+  "has_download_button": true,
+  "viewports": {
+    "1440px_desktop": {
+      "width": 1440,
+      "height": 1000,
+      "has_horizontal_overflow": false,
+      "screenshot": "verify_obj3_1440px_desktop.png"
+    },
+    "1366px_laptop": {
+      "width": 1366,
+      "height": 900,
+      "has_horizontal_overflow": false,
+      "screenshot": "verify_obj3_1366px_laptop.png"
+    },
+    "1024px_compact": {
+      "width": 1024,
+      "height": 800,
+      "has_horizontal_overflow": false,
+      "screenshot": "verify_obj3_1024px_compact.png"
+    },
+    "768px_tablet": {
+      "width": 768,
+      "height": 1024,
+      "has_horizontal_overflow": false,
+      "screenshot": "verify_obj3_768px_tablet.png"
+    },
+    "390px_mobile": {
+      "width": 390,
+      "height": 844,
+      "has_horizontal_overflow": false,
+      "screenshot": "verify_obj3_390px_mobile.png"
+    }
+  },
+  "mobile_has_horizontal_overflow": false
+}

@@ -1,0 +1,70 @@
+{
+  "page_header_found": true,
+  "mode_a_available": true,
+  "mode_b_available": true,
+  "data_provenance_displayed": true,
+  "sentinel2_features": {
+    "true_color_rgb": true
+  },
+  "desktop_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_obj4_sentinel2_1440px.png",
+  "subtab_SWIR_rendered": true,
+  "subtab_NDSI_rendered": true,
+  "subtab_DEM_rendered": true,
+  "landsat_explorer": {
+    "tab_clicked": true,
+    "earlier_panel": true,
+    "later_panel": true,
+    "diff_panel": true,
+    "detected_mask_panel": true,
+    "reference_mask_panel": true,
+    "coral_overlay_panel": true,
+    "accuracy_metrics": true,
+    "disclaimer_present": true,
+    "stats_cards_present": true
+  },
+  "landsat_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_obj4_landsat_change_1440px.png",
+  "boundary_overlay": {
+    "tab_clicked": true,
+    "benchmarks_present": true,
+    "styling_controls": true,
+    "export_buttons": true
+  },
+  "glims_screenshot": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\audits\\screenshots\\verify_obj4_glims_overlay_1440px.png",
+  "archival_figures": {
+    "tab_clicked": true,
+    "figures_rendered": true
+  },
+  "overflow_audit": {
+    "1440px_desktop": {
+      "scrollWidth": 1440,
+      "clientWidth": 1440,
+      "overflow_px": 0,
+      "has_overflow": false
+    },
+    "1366px_laptop": {
+      "scrollWidth": 1366,
+      "clientWidth": 1366,
+      "overflow_px": 0,
+      "has_overflow": false
+    },
+    "1024px_compact": {
+      "scrollWidth": 1024,
+      "clientWidth": 1024,
+      "overflow_px": 0,
+      "has_overflow": false
+    },
+    "768px_tablet": {
+      "scrollWidth": 768,
+      "clientWidth": 768,
+      "overflow_px": 0,
+      "has_overflow": false
+    },
+    "390px_mobile": {
+      "scrollWidth": 390,
+      "clientWidth": 390,
+      "overflow_px": 0,
+      "has_overflow": false
+    }
+  },
+  "all_checks_passed": true
+}

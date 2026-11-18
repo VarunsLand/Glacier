@@ -1,0 +1,148 @@
+{
+  "title": "Objective 1: Few-Shot Glacier Segmentation Evaluation",
+  "dataset": "DL4GAM Alps",
+  "split": "split_1",
+  "held_out_test_partition": {
+    "glaciers": 426,
+    "patches": 534
+  },
+  "evaluation_protocol": {
+    "k_values": [
+      1,
+      5,
+      10,
+      20
+    ],
+    "episodes_per_k": 20,
+    "query_patches_per_episode": 2,
+    "seed": 42,
+    "disjoint_glaciers_verified": true
+  },
+  "k_shot_evaluation_results": {
+    "1": {
+      "k_shot": 1,
+      "test_episodes": 20,
+      "miou_mean": 0.4827669942771302,
+      "miou_std": 0.16243608189154063,
+      "dice_mean": 0.3848539005302492,
+      "dice_std": 0.20888109064125243,
+      "fg_iou_mean": 0.259561285425585,
+      "fg_iou_std": 0.17516483642395925,
+      "bg_iou_mean": 0.7059727031286754,
+      "bg_iou_std": 0.20399774873742255,
+      "precision_mean": 0.285051493428396,
+      "precision_std": 0.1966632012419088,
+      "recall_mean": 0.7715896401245105,
+      "recall_std": 0.15957375496661905,
+      "boundary_f1_mean": 0.10767519418844833,
+      "boundary_f1_std": 0.06018908028134668,
+      "accuracy_mean": 0.7287441253661553,
+      "confusion_matrix": {
+        "tp": 227014,
+        "fp": 655808,
+        "fn": 55273,
+        "tn": 1683345
+      }
+    },
+    "5": {
+      "k_shot": 5,
+      "test_episodes": 20,
+      "miou_mean": 0.5127268330042651,
+      "miou_std": 0.10127069977361633,
+      "dice_mean": 0.3820536521907606,
+      "dice_std": 0.18978962893813892,
+      "fg_iou_mean": 0.25418428365797285,
+      "fg_iou_std": 0.1633568552306485,
+      "bg_iou_mean": 0.7712693823505575,
+      "bg_iou_std": 0.10284742033692362,
+      "precision_mean": 0.2709054321988134,
+      "precision_std": 0.1719713452411452,
+      "recall_mean": 0.8388612540523127,
+      "recall_std": 0.1476938463472834,
+      "boundary_f1_mean": 0.1292657384668072,
+      "boundary_f1_std": 0.04956090862042445,
+      "accuracy_mean": 0.7922462463378301,
+      "confusion_matrix": {
+        "tp": 207918,
+        "fp": 507139,
+        "fn": 37475,
+        "tn": 1868908
+      }
+    },
+    "10": {
+      "k_shot": 10,
+      "test_episodes": 20,
+      "miou_mean": 0.49028672865255585,
+      "miou_std": 0.0702227730165462,
+      "dice_mean": 0.3570257694068698,
+      "dice_std": 0.16135243174085998,
+      "fg_iou_mean": 0.22936955375147622,
+      "fg_iou_std": 0.13008934286650797,
+      "bg_iou_mean": 0.7512039035536354,
+      "bg_iou_std": 0.10404056939774944,
+      "precision_mean": 0.23826654523960422,
+      "precision_std": 0.13224742841060488,
+      "recall_mean": 0.8161919177007307,
+      "recall_std": 0.14713857546937884,
+      "boundary_f1_mean": 0.11802581626630504,
+      "boundary_f1_std": 0.04353225752930786,
+      "accuracy_mean": 0.7756553649901752,
+      "confusion_matrix": {
+        "tp": 207024,
+        "fp": 559880,
+        "fn": 28226,
+        "tn": 1826310
+      }
+    },
+    "20": {
+      "k_shot": 20,
+      "test_episodes": 20,
+      "miou_mean": 0.5297469491782797,
+      "miou_std": 0.11536148508171273,
+      "dice_mean": 0.3861853458582405,
+      "dice_std": 0.21222301860659967,
+      "fg_iou_mean": 0.2613084342111459,
+      "fg_iou_std": 0.17760608846539397,
+      "bg_iou_mean": 0.7981854641454136,
+      "bg_iou_std": 0.10338394928126145,
+      "precision_mean": 0.2772566841447365,
+      "precision_std": 0.19011887711983685,
+      "recall_mean": 0.7949982202888183,
+      "recall_std": 0.17081577153024713,
+      "boundary_f1_mean": 0.15267402434561023,
+      "boundary_f1_std": 0.06678168373703183,
+      "accuracy_mean": 0.8135063171386097,
+      "confusion_matrix": {
+        "tp": 178544,
+        "fp": 460997,
+        "fn": 27885,
+        "tn": 1954014
+      }
+    }
+  },
+  "supervised_baseline_benchmark": {
+    "model": "Supervised 13-Band U-Net Baseline",
+    "test_patches_evaluated": 534,
+    "miou_mean": 0.7076356542897828,
+    "miou_std": 0.11083620502143439,
+    "dice_mean": 0.655882645038835,
+    "dice_std": 0.19630389158686545,
+    "fg_iou_mean": 0.5175670357075361,
+    "boundary_f1_mean": 0.2844541356132439,
+    "precision_mean": 0.6360018952593184,
+    "recall_mean": 0.7657221650766625,
+    "accuracy_mean": 0.9183319606137377,
+    "confusion_matrix": {
+      "tp": 4159737,
+      "fp": 1605180,
+      "fn": 1252893,
+      "tn": 27978414
+    }
+  },
+  "evaluation_duration_minutes": 21.64,
+  "figures": {
+    "k_curve": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery\\figures\\fewshot_k_curve.png",
+    "test_predictions_count": 8,
+    "figures_directory": "C:\\Users\\Varun's LOQ\\Desktop\\GlacierResearch\\outputs\\runs\\objective1_run_002_recovery\\figures"
+  }
+}
