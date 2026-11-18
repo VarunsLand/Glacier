@@ -6,13 +6,19 @@ echo =====================================================================
 echo                GLACIERVISION AI RESEARCH PLATFORM
 echo =====================================================================
 echo [INFO] Initializing GlacierVision application...
-echo [INFO] Project Directory: C:\Users\Varun's LOQ\Desktop\GlacierResearch
-echo.
 
-cd /d "C:\Users\Varun's LOQ\Desktop\GlacierResearch"
+:: Dynamically set directory to the folder containing this batch script
+cd /d "%~dp0"
+echo [INFO] Project Directory: %CD%
+echo.
 
 :: Detect Python launcher or executable
 set "PY_CMD="
+if exist "venv\Scripts\python.exe" (
+    set "PY_CMD=venv\Scripts\python.exe"
+    goto :FOUND_PY
+)
+
 where py >nul 2>&1
 if %ERRORLEVEL% equ 0 (
     set "PY_CMD=py"
@@ -32,15 +38,11 @@ pause
 exit /b 1
 
 :FOUND_PY
-echo [INFO] Using Python launcher: %PY_CMD%
-echo [INFO] Starting Streamlit server on http://localhost:8501 ...
+echo [INFO] Using Python: %PY_CMD%
+echo [INFO] Starting GlacierVision via run.py...
 echo.
 
-:: Launch default browser after a 2-second delay in background
-start "" cmd /c "timeout /t 2 /nobreak >nul & start http://localhost:8501"
-
-:: Start Streamlit server
-%PY_CMD% -m streamlit run app.py --server.port 8501 --server.headless false
+%PY_CMD% run.py
 
 if %ERRORLEVEL% neq 0 (
     echo.

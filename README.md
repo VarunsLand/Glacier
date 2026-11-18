@@ -243,7 +243,10 @@ flowchart TD
 ```text
 GlacierResearch/
 ├── app.py                             # Main Streamlit web application & page router
-├── start_app.bat                      # Windows one-click local server launcher
+├── run.bat                            # Windows one-click launcher (double-click to run)
+├── run.py                             # Cross-platform direct runner (auto-checks deps & launches browser)
+├── run.sh                             # Linux / macOS one-click bash launcher
+├── start_app.bat                      # Legacy Windows batch launcher
 ├── README.md                          # Comprehensive visual documentation & architecture guide
 ├── DATASET_AUDIT.md                   # Systematic integrity audit of DL4GAM & GLIMS datasets
 ├── EXPERIMENT_LOG.md                  # Chronological training & validation ledger
@@ -312,9 +315,21 @@ pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install streamlit pandas numpy scipy matplotlib plotly geopandas shapely rasterio scikit-learn
 ```
 
-### Step 3: Launch the App
+### Step 3: Launch the App Directly
+You can run the application directly using any of the one-click runners:
+
 ```bash
-# On Windows, double-click start_app.bat or run:
+# Option A (Windows one-click):
+run.bat
+
+# Option B (Cross-platform Python launcher - auto-checks environment & opens browser):
+python run.py
+# or: py run.py
+
+# Option C (Linux / macOS):
+chmod +x run.sh && ./run.sh
+
+# Option D (Standard Streamlit CLI):
 streamlit run app.py
 ```
 Your browser will open automatically at `http://localhost:8501`.
