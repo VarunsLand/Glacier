@@ -5,47 +5,57 @@ color 0b
 echo =====================================================================
 echo                GLACIERVISION AI RESEARCH PLATFORM
 echo =====================================================================
-echo [INFO] Initializing GlacierVision application...
+echo [INFO] Initializing application...
 
-:: Dynamically set directory to the folder containing this batch script
+REM Change directory to where this batch file is located
 cd /d "%~dp0"
-echo [INFO] Project Directory: %CD%
-echo.
+echo [INFO] Working Directory: %CD%
 
-:: Detect Python launcher or executable
+REM Check for virtual environment
 set "PY_CMD="
+
 if exist "venv\Scripts\python.exe" (
+    echo [INFO] Found local virtual environment: venv
     set "PY_CMD=venv\Scripts\python.exe"
-    goto :FOUND_PY
+    goto :START_RUN
 )
 
+if exist ".venv\Scripts\python.exe" (
+    echo [INFO] Found local virtual environment: .venv
+    set "PY_CMD=.venv\Scripts\python.exe"
+    goto :START_RUN
+)
+
+REM Check for py launcher
 where py >nul 2>&1
 if %ERRORLEVEL% equ 0 (
     set "PY_CMD=py"
-    goto :FOUND_PY
+    goto :START_RUN
 )
 
+REM Check for standard python executable
 where python >nul 2>&1
 if %ERRORLEVEL% equ 0 (
     set "PY_CMD=python"
-    goto :FOUND_PY
+    goto :START_RUN
 )
 
-echo [ERROR] Python was not found in your system PATH.
-echo Please ensure Python 3.10+ is installed and added to PATH.
+echo.
+echo [ERROR] No Python installation found in system PATH.
+echo Please install Python 3.10+ from https://www.python.org/
 echo.
 pause
 exit /b 1
 
-:FOUND_PY
-echo [INFO] Using Python: %PY_CMD%
-echo [INFO] Starting GlacierVision via run.py...
+:START_RUN
+echo [INFO] Using Python command: %PY_CMD%
 echo.
 
+REM Launch the cross-platform run.py
 %PY_CMD% run.py
 
-if %ERRORLEVEL% neq 0 (
-    echo.
-    echo [ERROR] Application exited with error code %ERRORLEVEL%.
-    pause
-)
+echo.
+echo =====================================================================
+echo GlacierVision has finished.
+echo =====================================================================
+pause
